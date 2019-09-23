@@ -19,43 +19,21 @@ module.exports = class Honeycomb extends THREE.Object3D {
         // now fetch the loaded resource
        // const gltf = assets.get(gltfKey);
 
-        this.material = new LiveShaderMaterial(honeyShader, {
-            transparent: true,
-            uniforms: {
-                alpha: { value: 0 },
-                time: { value: 0 },
-                colorA: { value: new THREE.Color('rgb(213,70,70)') },
-                colorB: { value: new THREE.Color('rgb(223,191,86)') }
-            }
-        });
 
-        this.altMaterial = new THREE.MeshNormalMaterial();
-
-        this.children = [];
-
+        this.touchTime = 0
 
 
         const PlanetTexture = new THREE.TextureLoader().load( "assets/textures/Planets/moon-4k.png" );
         const PlanetGeom = new THREE.SphereGeometry(550,32,32);
         const PlanetMat = new THREE.MeshLambertMaterial({color:PlanetTexture, map:PlanetTexture });
        // const PlanetMat = new THREE.MeshBasicMaterial({color:0x350CA5});
-        const Planet = new THREE.Mesh(PlanetGeom, PlanetMat);
-        this.add(Planet);
+        this.Planet = new THREE.Mesh(PlanetGeom, PlanetMat);
+        this.Planet.position.set(0,0,800);
+        this.add(this.Planet);
 
         if (gui) { // assume it can be falsey, e.g. if we strip dat-gui out of bundlee
             // attach dat.gui stuff here as usual
-            const folder = gui.addFolder('honeycomb');
-            const settings = {
-                colorA: this.material.uniforms.colorA.value.getStyle(),
-                colorB: this.material.uniforms.colorB.value.getStyle()
-            };
-            const update = () => {
-                this.material.uniforms.colorA.value.setStyle(settings.colorA);
-                this.material.uniforms.colorB.value.setStyle(settings.colorB);
-            };
-            folder.addColor(settings, 'colorA').onChange(update);
-            folder.addColor(settings, 'colorB').onChange(update);
-            folder.open();
+
         }
     }
 
@@ -64,10 +42,7 @@ module.exports = class Honeycomb extends THREE.Object3D {
     }
 
     animateIn (opt = {}) {
-        animate.to(this.material.uniforms.alpha, 2.0, {
-            ...opt,
-            value: 1
-        });
+
         animate.fromTo(this.rotation, 2.0, {
             x: -Math.PI / 4
         }, {
@@ -82,18 +57,41 @@ module.exports = class Honeycomb extends THREE.Object3D {
     }
 
     onTouchStart (ev, pos) {
-        const [ x, y ] = pos;
-        console.log('Touchstart / mousedown: (%d, %d)', x, y);
 
-        // For example, raycasting is easy:
-        const coords = new THREE.Vector2().set(
-            pos[0] / webgl.width * 2 - 1,
-            -pos[1] / webgl.height * 2 + 1
-        );
-        const raycaster = new THREE.Raycaster();
-        raycaster.setFromCamera(coords, webgl.camera);
-        const hits = raycaster.intersectObject(this, true);
-        console.log(hits.length > 0 ? `Hit ${hits[0].object.name}!` : 'No hit');
+
+        if (this.touchTime == 0){
+            this.touchTime = new Date().getTime();
+        }
+        else {
+            if (((new Date().getTime()) - this.touchTime)< 800) {
+                // double click occurred
+                console.log("double clicked");
+                this.touchTime = 0;
+                const coords = new THREE.Vector2().set(
+                    pos[0] / webgl.width * 2 - 1,
+                    -pos[1] / webgl.height * 2 + 1
+                );
+                const raycaster = new THREE.Raycaster();
+                raycaster.setFromCamera(coords, webgl.camera);
+                const hits = raycaster.intersectObject(this, true);
+                let thisHit  = null;
+                if(hits.length > 0){
+                    console.log(this.Planet)
+                    console.log(hits[0].object.position)
+                    let moveTarget = hits[0].object.position
+                    if (hits[0].object == this.Planet ){
+                        webgl.controls.target.set(moveTarget.x, moveTarget.y, moveTarget.z);
+                    }
+                }
+                console.log(hits.length > 0 ? `Hit ${hits[0].object.name}!` : 'No hit');
+
+            } else {
+                // not a double click so set as a new first click
+                this.touchTime = new Date().getTime();
+            }
+        }
+
+
     }
 
     onTouchMove (ev, pos) {

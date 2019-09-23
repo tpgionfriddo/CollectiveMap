@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7158075a-9835-4496-93fe-c776defe1246" name="Default Changelist" comment="" />
+    <list default="true" id="7158075a-9835-4496-93fe-c776defe1246" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/textures/Icons/Asteroid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webgl/scene/POI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webgl/WebGLApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/WebGLApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webgl/scene/Lighting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/scene/Lighting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webgl/scene/Planet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/scene/Planet.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CollectiveMap" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,8 +28,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="3swordjack &lt;tpgionfriddo@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
   <component name="ProjectId" id="1Qm1vu7wrstEcLNyTaRVL69Scq0" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/webgl/scene" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -30,14 +53,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/webgl/scene" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl\scene" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\node_modules\three\src\controls" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl\materials" />
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl" />
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\app\assets\textures" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl\scene" />
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\node_modules\three\src\controls" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -70,10 +94,26 @@
       <workItem from="1568897266277" duration="2833000" />
       <workItem from="1569072064611" duration="3525000" />
       <workItem from="1569076810580" duration="1932000" />
+      <workItem from="1569262775635" duration="1541000" />
+      <workItem from="1569264404034" duration="7983000" />
+      <workItem from="1569279235865" duration="2329000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

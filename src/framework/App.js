@@ -13,11 +13,9 @@ const Preloader = require('../sections/Preloader/Preloader');
 const WebGLCanvas = require('../components/WebGLCanvas/WebGLCanvas');
 
 // WebGL scenes
-const Honeycomb = require('../webgl/scene/Honeycomb');
-const SpinningBox = require('../webgl/scene/SpinningBox');
-const StarMap = require("../webgl/scene/StarMap");
 const Planet = require("../webgl/scene/Planet");
 const Lighting = require("../webgl/scene/Lighting");
+const POI = require("../webgl/scene/POI");
 
 const { assets, webgl } = require('../context');
 
@@ -75,10 +73,11 @@ class App extends BaseComponent {
       }, this.props.fakePreloadTime);
 
       // Add any "WebGL components" here...
-      //webgl.scene.add(new StarMap());
+
       webgl.scene.add(new Planet());
       webgl.scene.add(new Lighting());
-      //webgl.scene.add(new Honeycomb());
+      webgl.scene.add(new POI());
+
     });
   }
 

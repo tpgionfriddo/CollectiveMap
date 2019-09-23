@@ -9,7 +9,7 @@ module.exports = class Lighting extends THREE.Object3D {
     constructor () {
         super();
 
-        const AmbientLighting = new THREE.AmbientLight( 0x404040 ); // soft white light
+        const AmbientLighting = new THREE.AmbientLight( 0x404040, 2 ); // soft white light
         this.add( AmbientLighting );
     }
 

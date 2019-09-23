@@ -34,7 +34,7 @@ module.exports = class WebGLApp extends EventEmitter {
     this.touchHandler.on('move', (ev, pos) => this._traverse('onTouchMove', ev, pos));
 
     // default background color
-    const background = defined(opt.background, '#000');
+    const background = defined(opt.background, 'black');
     const backgroundAlpha = defined(opt.backgroundAlpha, 1);
     this.renderer.setClearColor(background, backgroundAlpha);
 
@@ -53,8 +53,8 @@ module.exports = class WebGLApp extends EventEmitter {
     // set up a simple orbit controller
    this.controls = new THREE.OrbitControls(this.camera);
    this.camera.position.x = 1250;
-    this.camera.position.y = 0;
-    this.camera.position.z = 0;
+   this.camera.position.y = 0;
+   this.camera.position.z = 0;
 
 
     this.time = 0;
@@ -63,7 +63,6 @@ module.exports = class WebGLApp extends EventEmitter {
     this._rafID = null;
 
     this.scene = new THREE.Scene();
-
 
 
 
@@ -134,8 +133,8 @@ module.exports = class WebGLApp extends EventEmitter {
   update (dt = 0, time = 0) {
     this.controls.update();
     //TODO make this a function for afk
-    this.camera.position.z += dt * -50.0;
-    console.log(this.camera.position.z);
+    //this.camera.position.z += dt * -50.0;
+    //console.log(this.camera.position.z);
 
 
     // recursively tell all child objects to update
@@ -219,3 +218,4 @@ function defaultFile (ext) {
   const str = `${new Date().toLocaleDateString()} at ${new Date().toLocaleTimeString()}${ext}`;
   return str.replace(/\//g, '-').replace(/:/g, '.');
 }
+
