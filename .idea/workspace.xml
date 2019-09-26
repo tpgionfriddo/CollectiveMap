@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7158075a-9835-4496-93fe-c776defe1246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/textures/Icons/Asteroid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webgl/scene/POI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webgl/JSON/POIS.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Info/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Info/Header.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MaterialButton/MaterialButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MaterialButton/MaterialButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/framework/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webgl/WebGLApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/WebGLApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Landing/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Landing/Landing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Landing/Landing.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Landing/Landing.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webgl/scene/Honeycomb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/scene/Honeycomb.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webgl/scene/Lighting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/scene/Lighting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webgl/scene/POI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/scene/POI.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webgl/scene/Planet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/scene/Planet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webgl/scene/Points.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/scene/Points.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +51,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/webgl/scene" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Info" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,15 +63,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/webgl/scene" />
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl\scene" />
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\node_modules\three\src\controls" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl\materials" />
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl\materials" />
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\app\assets\textures" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\components\Info" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\components" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl\scene" />
+      <recent name="$PROJECT_DIR$/src/webgl/scene" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\node_modules\three\src\controls" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -97,6 +109,8 @@
       <workItem from="1569262775635" duration="1541000" />
       <workItem from="1569264404034" duration="7983000" />
       <workItem from="1569279235865" duration="2329000" />
+      <workItem from="1569326817350" duration="19063000" />
+      <workItem from="1569476378153" duration="19188000" />
     </task>
     <servers />
   </component>

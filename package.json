@@ -25,6 +25,7 @@
     "preact": "^8.2.7",
     "preact-transition-group": "^1.1.1",
     "query-string": "^5.0.1",
+    "rebass": "^4.0.6",
     "right-now": "^1.0.0",
     "seed-random": "^2.2.0",
     "simplex-noise": "^2.3.0",

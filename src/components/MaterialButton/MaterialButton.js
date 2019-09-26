@@ -40,7 +40,7 @@ class MaterialButton extends BaseComponent {
         onClick={this.props.onClick}
         className={classes}
         ref={ c => { this.container = c; } }>
-        { this.props.children }
+        { this.props.Name }
       </div>
     );
   }

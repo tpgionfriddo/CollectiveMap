@@ -9,6 +9,7 @@ const PreactTransitionGroup = require('preact-transition-group');
 const Landing = require('../sections/Landing/Landing');
 const Preloader = require('../sections/Preloader/Preloader');
 
+
 // WebGL canvas component
 const WebGLCanvas = require('../components/WebGLCanvas/WebGLCanvas');
 
@@ -16,6 +17,7 @@ const WebGLCanvas = require('../components/WebGLCanvas/WebGLCanvas');
 const Planet = require("../webgl/scene/Planet");
 const Lighting = require("../webgl/scene/Lighting");
 const POI = require("../webgl/scene/POI");
+const POIS = require("../webgl/scene/Points");
 
 const { assets, webgl } = require('../context');
 
@@ -76,7 +78,7 @@ class App extends BaseComponent {
 
       webgl.scene.add(new Planet());
       webgl.scene.add(new Lighting());
-      webgl.scene.add(new POI());
+      webgl.scene.add(new POIS());
 
     });
   }
@@ -112,7 +114,9 @@ class App extends BaseComponent {
         <PreactTransitionGroup className='content'>
           { content }
         </PreactTransitionGroup>
+
       </div>
+
     );
   }
 }

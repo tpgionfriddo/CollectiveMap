@@ -16,8 +16,6 @@ module.exports = class Honeycomb extends THREE.Object3D {
     constructor () {
         super();
 
-        // now fetch the loaded resource
-       // const gltf = assets.get(gltfKey);
 
 
 
@@ -34,10 +32,6 @@ module.exports = class Honeycomb extends THREE.Object3D {
 
 
 
-        if (gui) { // assume it can be falsey, e.g. if we strip dat-gui out of bundlee
-            // attach dat.gui stuff here as usual
-
-        }
     }
 
     onAppDidUpdate (oldProps, oldState, newProps, newState) {

@@ -4,7 +4,7 @@ const BaseComponent = require('../../components/BaseComponent/BaseComponent');
 const classnames = require('classnames');
 const animate = require('@jam3/gsap-promise');
 
-class Header extends BaseComponent {
+class InfoBox extends BaseComponent {
   constructor (props) {
     super(props);
     this.state = {
@@ -45,18 +45,30 @@ class Header extends BaseComponent {
 
   render () {
     const classes = classnames({
-      'Header': true
+      'InfoBox': true
     });
     return (
-      <header className={classes} ref={ c => { this.container = c; } }>
-        { this.props.children }
-      </header>
+      <div className={classes} ref={ c => { this.container = c; } }>
+       <div className="Name">
+        { this.props.Name }
+        </div>
+        <div className="Coordinates">
+          {this.props.Coordinates[0]}
+          , &nbsp;
+          {this.props.Coordinates[1]}
+          ,	&nbsp;
+          {this.props.Coordinates[2]}
+        </div>
+        <div className="Description">
+          {this.props.Description}
+        </div>
+      </div>
     );
   }
 }
 
-Header.defaultProps = {
+InfoBox.defaultProps = {
   text: ''
 };
 
-module.exports = Header;
+module.exports = InfoBox;
