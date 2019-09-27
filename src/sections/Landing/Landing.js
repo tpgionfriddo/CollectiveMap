@@ -24,7 +24,9 @@ class Landing extends BaseComponent {
   }
 
     updateState(text){
-        this.setState({text})
+      console.log("redoing")
+        this.setState(text)
+
     }
 
   animateIn () {
@@ -58,7 +60,7 @@ class Landing extends BaseComponent {
 
           </InfoBox>
           <MaterialButton
-          onClick={false}
+          onClick={() => {this.updateState({name:"eeee"})}}
           ref={ c => { this.button = c; } }>
           PlaceHolder
         </MaterialButton>
@@ -72,3 +74,4 @@ Landing.defaultProps = {
 };
 
 module.exports = Landing;
+

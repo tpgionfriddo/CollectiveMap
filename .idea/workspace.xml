@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7158075a-9835-4496-93fe-c776defe1246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/webgl/JSON/POIS.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Info/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Info/Header.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MaterialButton/MaterialButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MaterialButton/MaterialButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/Landing/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Landing/Landing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Landing/Landing.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Landing/Landing.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webgl/scene/Honeycomb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/scene/Honeycomb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webgl/scene/Lighting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/scene/Lighting.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webgl/scene/POI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/scene/POI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webgl/scene/Planet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/scene/Planet.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webgl/scene/Points.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/scene/Points.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,7 +95,8 @@
       <workItem from="1569264404034" duration="7983000" />
       <workItem from="1569279235865" duration="2329000" />
       <workItem from="1569326817350" duration="19063000" />
-      <workItem from="1569476378153" duration="19188000" />
+      <workItem from="1569476378153" duration="19225000" />
+      <workItem from="1569557924298" duration="4768000" />
     </task>
     <servers />
   </component>

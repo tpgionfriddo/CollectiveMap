@@ -3,7 +3,7 @@ const {
     webgl,
     assets
 } = require('../../context');
-const app = require('../../framework/App')
+const App = require('../../framework/App')
 const LiveShaderMaterial = require('../materials/LiveShaderMaterial');
 const honeyShader = require('../shaders/honey.shader');
 const animate = require('@jam3/gsap-promise');
@@ -183,7 +183,7 @@ function SingleClick(ev, pos, the) {
             DisplayInfo(hits[0].object)
             Landing.Selected = hits[0].object;
             console.log(Landing.Selected.name)
-            Landing.updateState({name:"eeee"})
+            //({name:"eeee"})
         }
     }
     console.log(hits.length > 0 ? `Hit ${hits[0].object.name}!` : 'No hit');
