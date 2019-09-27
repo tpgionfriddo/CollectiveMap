@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7158075a-9835-4496-93fe-c776defe1246" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/textures/Icons/Types/Other.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/textures/Icons/Types/Other.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/textures/Icons/Types/Station.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/textures/Icons/Types/Station.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/Landing/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Landing/Landing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webgl/JSON/POIS.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/JSON/POIS.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webgl/scene/Points.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/scene/Points.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,19 +50,21 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl" />
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl\materials" />
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\app\assets\textures" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\components\Info" />
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\components" />
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl\scene" />
       <recent name="$PROJECT_DIR$/src/webgl/scene" />
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\node_modules\three\src\controls" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\app\assets\textures\Icons\Types" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl\materials" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\app\assets\textures" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -96,7 +102,10 @@
       <workItem from="1569279235865" duration="2329000" />
       <workItem from="1569326817350" duration="19063000" />
       <workItem from="1569476378153" duration="19225000" />
-      <workItem from="1569557924298" duration="4768000" />
+      <workItem from="1569557924298" duration="10353000" />
+      <workItem from="1569592627211" duration="101000" />
+      <workItem from="1569596158541" duration="4449000" />
+      <workItem from="1569600836118" duration="1542000" />
     </task>
     <servers />
   </component>

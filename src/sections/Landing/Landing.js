@@ -14,7 +14,7 @@ class Landing extends BaseComponent {
   constructor (props) {
     super(props);
     this.state = {
-        name:"e",
+        name:"Test Asteroid",
 
     };
 
@@ -53,14 +53,16 @@ class Landing extends BaseComponent {
         <Header ref={ c => { this.header = c; } }>
           StarMap
         </Header>
+
           <InfoBox  ref={ c => { this.InfoBox = c; } }
                     Name = {this.state.name}
                     Coordinates = {[10000,20000,30000]}
           >
-
           </InfoBox>
+
+
           <MaterialButton
-          onClick={() => {this.updateState({name:"eeee"})}}
+          onClick={() => {this.updateState({name:"Button Clicked"})}}
           ref={ c => { this.button = c; } }>
           PlaceHolder
         </MaterialButton>

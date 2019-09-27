@@ -8,6 +8,7 @@ const LiveShaderMaterial = require('../materials/LiveShaderMaterial');
 const honeyShader = require('../shaders/honey.shader');
 const animate = require('@jam3/gsap-promise');
 const Landing = require('../../sections/Landing/Landing');
+const Colour = require('colourjs');
 
 // tell the preloader to include this asset
 // we need to define this outside of our class, otherwise
@@ -46,22 +47,19 @@ const POIS = require('../JSON/POIS.json');
 
 
 
-
-
-module.exports = class Honeycomb extends THREE.Object3D {
+module.exports = class points extends THREE.Object3D {
     constructor() {
         super();
         console.log(POIS.length)
         // now fetch the loaded resource
         // const gltf = assets.get(gltfKey);
         for (let i = 0; i < POIS.length; i++) {
-            const AsteroidTexture = new THREE.TextureLoader().load(POIS[i].icon, function() {
-                console.log("loaded")
-            });
+
             const AsteroidMat = new THREE.SpriteMaterial({
-                map: AsteroidTexture,
-                color: POIS[i].color
+                map: GetSprite(POIS[i].type),
+                color: new THREE.Color(POIS[i].color[0], POIS[i].color[1], POIS[i].color[2])
             });
+            console.log(new THREE.Color(POIS[i].color[0], POIS[i].color[1], POIS[i].color[2]))
             let Sprite = new THREE.Sprite(AsteroidMat);
             console.log(POIS[i].position);
             Sprite.name = POIS[i].name;
@@ -181,8 +179,8 @@ function SingleClick(ev, pos, the) {
         let moveTarget = hits[0].object.position;
         if (hits[0].object.isPOI) {
             DisplayInfo(hits[0].object)
-            Landing.Selected = hits[0].object;
-            console.log(Landing.Selected.name)
+            Landing.setState(hits[0].object);
+            console.log(Landing.Selected.name);
             //({name:"eeee"})
         }
     }
@@ -192,4 +190,16 @@ function SingleClick(ev, pos, the) {
 function DisplayInfo(POI) {
 console.log(POI.Data)
 
+}
+const types = {
+    Station: new THREE.TextureLoader().load("assets/Textures/Icons/Types/Station.svg"), function() {console.log("loaded")},
+    Asteroid: new THREE.TextureLoader().load("assets/Textures/Icons/Types/Asteroid.svg"), function() {console.log("loaded")},
+    Hostile: new THREE.TextureLoader().load("assets/Textures/Icons/Types/Hostile.svg"), function() {console.log("loaded")},
+    Other: new THREE.TextureLoader().load("assets/Textures/Icons/Types/Other.svg"), function() {console.log("loaded")}
+}
+function GetSprite(type){
+if(type in types){
+    console.log(type)
+    return types[type]
+}
 }
