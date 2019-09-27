@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7158075a-9835-4496-93fe-c776defe1246" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/textures/Icons/Types/Other.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/textures/Icons/Types/Other.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/textures/Icons/Types/Station.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/textures/Icons/Types/Station.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Landing/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Landing/Landing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webgl/JSON/POIS.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/JSON/POIS.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webgl/scene/Points.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/scene/Points.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,7 +99,7 @@
       <workItem from="1569557924298" duration="10353000" />
       <workItem from="1569592627211" duration="101000" />
       <workItem from="1569596158541" duration="4449000" />
-      <workItem from="1569600836118" duration="1542000" />
+      <workItem from="1569600836118" duration="2008000" />
     </task>
     <servers />
   </component>

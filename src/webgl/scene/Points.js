@@ -76,7 +76,7 @@ module.exports = class points extends THREE.Object3D {
 
 
 
-        console.log(this.children)
+        //console.log(this.children)
 
         if (gui) { // assume it can be falsey, e.g. if we strip dat-gui out of bundlee
             // attach dat.gui stuff here as usual
