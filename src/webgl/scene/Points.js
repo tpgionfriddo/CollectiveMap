@@ -191,6 +191,7 @@ console.log(POI.Data)
 function GetSprite(type){
 if(type in types){
     console.log(type)
-    return types[type]
+    return null
+    //return types[type]
 }
 }
