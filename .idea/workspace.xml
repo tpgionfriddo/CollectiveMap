@@ -47,18 +47,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\app\assets" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\app\assets\textures\Icons\Types" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl\materials" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\app\assets\textures" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\components\Info" />
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\components" />
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl\scene" />
       <recent name="$PROJECT_DIR$/src/webgl/scene" />
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\node_modules\three\src\controls" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\app\assets\textures\Icons\Types" />
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl" />
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl\materials" />
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\app\assets\textures" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -99,8 +100,17 @@
       <workItem from="1569557924298" duration="10353000" />
       <workItem from="1569592627211" duration="101000" />
       <workItem from="1569596158541" duration="4449000" />
-      <workItem from="1569600836118" duration="2008000" />
+      <workItem from="1569600836118" duration="2522000" />
+      <workItem from="1569636820887" duration="3561000" />
     </task>
+    <task id="LOCAL-00001" summary="10k">
+      <created>1569639477384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569639477384</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,5 +128,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="10k" />
+    <option name="LAST_COMMIT_MESSAGE" value="10k" />
   </component>
 </project>

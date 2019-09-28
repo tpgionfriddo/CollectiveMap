@@ -43,7 +43,14 @@ const OLDPOIS = [{
         },
     }
 ];
-const POIS = require('../JSON/POIS.json');
+const types = {
+    Station: new THREE.TextureLoader().load("assets/Textures/Icons/Types/Station.svg"), function() {console.log("loaded")},
+    Asteroid: new THREE.TextureLoader().load("assets/Textures/Icons/Types/Asteroid.svg"), function() {console.log("loaded")},
+    Hostile: new THREE.TextureLoader().load("assets/Textures/Icons/Types/Hostile.svg"), function() {console.log("loaded")},
+    Other: new THREE.TextureLoader().load("assets/Textures/Icons/Types/Other.svg"), function() {console.log("loaded")}
+}
+
+const POIS = require('../../../app/assets/JSON/POIS');
 
 
 
@@ -191,12 +198,7 @@ function DisplayInfo(POI) {
 console.log(POI.Data)
 
 }
-const types = {
-    Station: new THREE.TextureLoader().load("assets/Textures/Icons/Types/Station.svg"), function() {console.log("loaded")},
-    Asteroid: new THREE.TextureLoader().load("assets/Textures/Icons/Types/Asteroid.svg"), function() {console.log("loaded")},
-    Hostile: new THREE.TextureLoader().load("assets/Textures/Icons/Types/Hostile.svg"), function() {console.log("loaded")},
-    Other: new THREE.TextureLoader().load("assets/Textures/Icons/Types/Other.svg"), function() {console.log("loaded")}
-}
+
 function GetSprite(type){
 if(type in types){
     console.log(type)
