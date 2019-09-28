@@ -19,35 +19,25 @@ const Colour = require('colourjs');
 //});
 
 
-const OLDPOIS = [{
-    name: "Asteroid1",
-    icon: 'assets/textures/Icons/Asteroid.svg',
-    color: 255,
-    description: "The first one" ,
-    position: {
-        x: 650,
-        y: 0,
-        z: 0
-    },
+const StationKey = assets.queue({
+    url: 'assets/Textures/Icons/Types/Station.svg'
+});
+const AsteroidKey = assets.queue({
+    url: 'assets/Textures/Icons/Types/Asteroid.svg'
+});
+const HostileKey = assets.queue({
+    url: 'assets/Textures/Icons/Types/Hostile.svg'
+});
+const OtherKey = assets.queue({
+    url: 'assets/Textures/Icons/Types/Other.svg'
+});
 
-},
-    {
-        name: "Asteroid2",
-        icon: 'assets/textures/Icons/Asteroid.svg',
-        color: 0xff0000,
-        description: "The second one",
-        position: {
-            x: 600,
-            y: 0,
-            z: 600
-        },
-    }
-];
+
 const types = {
-    Station: new THREE.TextureLoader().load("assets/Textures/Icons/Types/Station.svg"), function() {console.log("loaded")},
-    Asteroid: new THREE.TextureLoader().load("assets/Textures/Icons/Types/Asteroid.svg"), function() {console.log("loaded")},
-    Hostile: new THREE.TextureLoader().load("assets/Textures/Icons/Types/Hostile.svg"), function() {console.log("loaded")},
-    Other: new THREE.TextureLoader().load("assets/Textures/Icons/Types/Other.svg"), function() {console.log("loaded")}
+    Station: new THREE.TextureLoader().load(StationKey), function() {console.log("loaded")},
+    Asteroid: new THREE.TextureLoader().load(AsteroidKey), function() {console.log("loaded")},
+    Hostile: new THREE.TextureLoader().load(HostileKey), function() {console.log("loaded")},
+    Other: new THREE.TextureLoader().load(OtherKey), function() {console.log("loaded")}
 }
 
 const POIS = require('../../../app/assets/JSON/POIS');
@@ -57,7 +47,7 @@ const POIS = require('../../../app/assets/JSON/POIS');
 module.exports = class points extends THREE.Object3D {
     constructor() {
         super();
-        console.log(POIS.length)
+        //console.log(POIS.length)
         // now fetch the loaded resource
         // const gltf = assets.get(gltfKey);
         for (let i = 0; i < POIS.length; i++) {
@@ -66,9 +56,8 @@ module.exports = class points extends THREE.Object3D {
                 map: GetSprite(POIS[i].type),
                 color: new THREE.Color(POIS[i].color[0], POIS[i].color[1], POIS[i].color[2])
             });
-            console.log(new THREE.Color(POIS[i].color[0], POIS[i].color[1], POIS[i].color[2]))
             let Sprite = new THREE.Sprite(AsteroidMat);
-            console.log(POIS[i].position);
+            //console.log(POIS[i].position);
             Sprite.name = POIS[i].name;
             Sprite.isPOI = true;
             Sprite.Data = POIS[i];

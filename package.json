@@ -55,6 +55,7 @@
     "chalk": "^2.3.0",
     "cross-env": "^5.1.3",
     "filed": "^0.1.0",
+    "gh-pages": "^2.1.1",
     "glslify": "^6.1.0",
     "less-css-stream": "^1.0.0",
     "less-plugin-autoprefix": "^1.5.1",
@@ -78,7 +79,8 @@
     "bundle:css": "node tools/style.js",
     "bundle": "cross-env NODE_ENV=production npm-run-all bundle:js bundle:css",
     "deploy:upload": "surge -p app/ -d StarMap.surge.sh",
-    "deploy": "npm run bundle && npm run deploy:upload"
+    "deploy:gh": "gh-pages -d app",
+    "deploy": "npm run bundle && npm run deploy:gh"
   },
   "glslify": {
     "transform": [
@@ -88,10 +90,10 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mattdesl/threejs-app.git"
+    "url": "git://github.com/3swordjack/CollectiveMap.git"
   },
-  "homepage": "https://github.com/mattdesl/threejs-app",
+  "homepage": "https://3swordjack.github.io/CollectiveMap/",
   "bugs": {
-    "url": "https://github.com/mattdesl/threejs-app/issues"
+    "url": "https://github.com/3swordjack/CollectiveMap/issues"
   }
 }
