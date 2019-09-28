@@ -1,1602 +1,482 @@
 [
   {
-    "name": "ullamco",
+    "name": "nulla",
     "icon": "assets/textures/Icons/Asteroid.svg",
     "color": [
-      0.7151,
-      0.6844,
-      0.9052
-    ],
-    "type": "Other",
-    "description": "Voluptate commodo irure sunt aliqua dolor laboris voluptate magna sint est sunt fugiat. Eiusmod nisi exercitation ut adipisicing ea fugiat sunt culpa anim. Exercitation culpa veniam sint non quis id quis exercitation culpa sunt exercitation culpa mollit.",
-    "position": {
-      "x": 1261,
-      "y": 4446,
-      "z": -2278
-    }
-  },
-  {
-    "name": "officia",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.8247,
-      0.4818,
-      0.1331
-    ],
-    "type": "Asteroid",
-    "description": "Est ad nisi minim pariatur fugiat. Enim nostrud dolor cillum occaecat consequat nostrud et id esse exercitation id laborum sint. Sunt dolore excepteur culpa excepteur dolore ad irure eiusmod qui Lorem mollit.",
-    "position": {
-      "x": 378,
-      "y": 833,
-      "z": -953
-    }
-  },
-  {
-    "name": "amet",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.6992,
-      0.8351,
-      0.6218
-    ],
-    "type": "Station",
-    "description": "Ad ex ut esse culpa incididunt ea dolore cillum sit commodo nostrud. Sit labore voluptate velit elit duis irure id quis ea aliqua ut. Consequat adipisicing minim pariatur velit culpa ea sit cillum aute minim duis anim in.",
-    "position": {
-      "x": -2043,
-      "y": -4957,
-      "z": 3611
-    }
-  },
-  {
-    "name": "labore",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.1495,
-      0.9501,
-      0.0721
+      0.0171,
+      0.1428,
+      0.8761
     ],
     "type": "Hostile",
-    "description": "In minim incididunt elit officia voluptate magna elit enim veniam ex elit occaecat. Ullamco consectetur eu nostrud incididunt irure exercitation. Excepteur irure excepteur nulla qui nulla ut fugiat.",
+    "description": "Eiusmod consectetur reprehenderit laborum aliquip voluptate veniam minim est labore non consequat irure. Minim sunt dolor consectetur excepteur commodo cupidatat sunt labore labore ad. Magna dolor eu voluptate cillum consectetur elit excepteur minim consequat fugiat sunt laboris.",
     "position": {
-      "x": -352,
-      "y": 1057,
-      "z": 3691
-    }
-  },
-  {
-    "name": "reprehenderit",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.8467,
-      0.3659,
-      0.6677
-    ],
-    "type": "Station",
-    "description": "Tempor elit dolore velit eiusmod eiusmod magna sint Lorem et officia sint. Et sit dolore non sit amet eiusmod consequat labore. Sint qui ut qui duis do enim et commodo aliqua eiusmod consequat sit consectetur.",
-    "position": {
-      "x": 1249,
-      "y": 2104,
-      "z": 2491
-    }
-  },
-  {
-    "name": "officia",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.5958,
-      0.1536,
-      0.8393
-    ],
-    "type": "Other",
-    "description": "Pariatur anim ullamco minim nulla sit pariatur consectetur occaecat culpa. Tempor occaecat aute consequat officia enim voluptate anim. Ullamco ipsum et veniam sunt cupidatat incididunt culpa magna Lorem consequat elit consectetur.",
-    "position": {
-      "x": 1240,
-      "y": 4260,
-      "z": -2765
-    }
-  },
-  {
-    "name": "eu",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.0601,
-      0.7819,
-      0.0903
-    ],
-    "type": "Station",
-    "description": "Ad consequat exercitation mollit Lorem do nulla do sit fugiat non nisi proident magna reprehenderit. Non amet ex duis mollit adipisicing veniam occaecat commodo. Veniam anim esse eu labore eiusmod amet.",
-    "position": {
-      "x": 708,
-      "y": -1809,
-      "z": 2015
-    }
-  },
-  {
-    "name": "Lorem",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.2255,
-      0.5704,
-      0.3755
-    ],
-    "type": "Station",
-    "description": "Dolore velit nostrud in non sint incididunt id quis cillum ullamco deserunt culpa. Dolor Lorem cillum labore in cillum. Consequat laboris consectetur aliquip ipsum qui consectetur.",
-    "position": {
-      "x": 3794,
-      "y": 3756,
-      "z": 942
-    }
-  },
-  {
-    "name": "reprehenderit",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.24,
-      0.4624,
-      0.2479
-    ],
-    "type": "Asteroid",
-    "description": "Nisi adipisicing aliquip nostrud reprehenderit et minim pariatur duis do elit. In amet laboris sunt pariatur nulla cillum aute. Velit excepteur eu laborum qui ullamco deserunt.",
-    "position": {
-      "x": 4872,
-      "y": -2391,
-      "z": 4957
-    }
-  },
-  {
-    "name": "velit",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.9461,
-      0.4602,
-      0.5504
-    ],
-    "type": "Other",
-    "description": "Dolore nulla aute incididunt ea nostrud velit non dolore magna consequat id consectetur exercitation. Adipisicing laboris laboris deserunt aliqua adipisicing culpa anim fugiat mollit Lorem nisi qui. Consequat anim consectetur nulla aliquip aliqua sit.",
-    "position": {
-      "x": 2071,
-      "y": -704,
-      "z": -3123
-    }
-  },
-  {
-    "name": "laboris",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.466,
-      0.2722,
-      0.1827
-    ],
-    "type": "Station",
-    "description": "Minim est tempor ullamco nostrud labore ullamco laborum minim culpa non nulla. Enim excepteur elit incididunt sint ex id adipisicing enim proident enim. Pariatur velit consequat dolore nulla ex cupidatat commodo.",
-    "position": {
-      "x": 1451,
-      "y": -2519,
-      "z": -3421
-    }
-  },
-  {
-    "name": "non",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.3053,
-      0.702,
-      0.8849
-    ],
-    "type": "Hostile",
-    "description": "Eiusmod sunt sint do sit deserunt fugiat occaecat nisi sint cillum sunt et. Ut ipsum ea et amet eiusmod cillum laborum labore. Minim adipisicing sint cupidatat exercitation proident laborum enim minim elit exercitation nostrud laborum labore.",
-    "position": {
-      "x": -2495,
-      "y": 4619,
-      "z": -4271
-    }
-  },
-  {
-    "name": "minim",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.5388,
-      0.4908,
-      0.4195
-    ],
-    "type": "Hostile",
-    "description": "Labore qui mollit in sunt ullamco. Id excepteur voluptate irure laborum cupidatat amet nulla id velit ullamco ad. Nisi esse consequat nisi consequat in proident consequat enim Lorem enim ea.",
-    "position": {
-      "x": 891,
-      "y": -766,
-      "z": -2016
-    }
-  },
-  {
-    "name": "exercitation",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.5869,
-      0.8447,
-      0.7015
-    ],
-    "type": "Station",
-    "description": "Cillum mollit ullamco do in dolore. Id aliquip pariatur dolore magna nulla velit elit sit aliqua elit. Consequat enim cupidatat amet irure reprehenderit ipsum duis aute pariatur reprehenderit nisi id.",
-    "position": {
-      "x": -826,
-      "y": 1585,
-      "z": -2629
-    }
-  },
-  {
-    "name": "laboris",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.4747,
-      0.0865,
-      0.0822
-    ],
-    "type": "Other",
-    "description": "Sunt proident sint proident aliqua nisi laborum nostrud. Fugiat amet veniam do laborum officia ex pariatur commodo culpa. Sit amet excepteur sit amet laboris ea eiusmod labore nulla ut cupidatat quis.",
-    "position": {
-      "x": 1789,
-      "y": 3198,
-      "z": 3110
-    }
-  },
-  {
-    "name": "amet",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.2413,
-      0.6664,
-      0.7236
-    ],
-    "type": "Other",
-    "description": "Eu do occaecat sit mollit enim id proident voluptate et tempor fugiat. Quis do ipsum sit veniam proident culpa magna veniam adipisicing laborum cillum. Ut amet aliquip amet labore dolor duis adipisicing consequat veniam id aliqua sit.",
-    "position": {
-      "x": -1620,
-      "y": 2825,
-      "z": -1099
-    }
-  },
-  {
-    "name": "labore",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.2193,
-      0.1236,
-      0.002
-    ],
-    "type": "Hostile",
-    "description": "Esse consequat aute ad irure anim culpa. Quis enim ipsum ut qui et nulla aute laboris. Lorem velit est mollit in.",
-    "position": {
-      "x": -301,
-      "y": -2554,
-      "z": 65
+      "x": -291,
+      "y": -116,
+      "z": 767
     }
   },
   {
     "name": "sit",
     "icon": "assets/textures/Icons/Asteroid.svg",
     "color": [
-      0.8537,
-      0.872,
-      0.8186
-    ],
-    "type": "Station",
-    "description": "Ut cupidatat voluptate sit velit ea qui consectetur cillum. Magna nisi exercitation Lorem ea in qui et. Veniam magna nisi nisi nulla.",
-    "position": {
-      "x": 1117,
-      "y": -147,
-      "z": -3538
-    }
-  },
-  {
-    "name": "minim",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.9014,
-      0.5294,
-      0.747
-    ],
-    "type": "Other",
-    "description": "Dolor sunt Lorem dolore culpa velit amet enim. Amet elit ullamco id anim ex enim dolore nostrud adipisicing ex eiusmod anim excepteur. Officia aliqua voluptate voluptate consequat.",
-    "position": {
-      "x": 942,
-      "y": 457,
-      "z": 1681
-    }
-  },
-  {
-    "name": "adipisicing",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.8992,
-      0.8625,
-      0.6923
-    ],
-    "type": "Station",
-    "description": "Eiusmod exercitation aliquip sint sunt amet eiusmod aliqua non qui id. Eu in anim nostrud velit cillum in labore cupidatat ex. Commodo nisi ex incididunt irure et.",
-    "position": {
-      "x": 1696,
-      "y": 2340,
-      "z": 4695
-    }
-  },
-  {
-    "name": "ut",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.999,
-      0.0391,
-      0.2944
-    ],
-    "type": "Station",
-    "description": "Tempor tempor est velit voluptate fugiat id voluptate tempor pariatur enim culpa anim cupidatat minim. Labore eiusmod dolor excepteur voluptate cillum minim sint. Elit laborum ullamco quis ut occaecat dolor culpa enim duis.",
-    "position": {
-      "x": 1598,
-      "y": -1310,
-      "z": 3415
-    }
-  },
-  {
-    "name": "consectetur",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.5285,
-      0.0414,
-      0.0379
-    ],
-    "type": "Asteroid",
-    "description": "In mollit sunt sint eu esse reprehenderit sunt excepteur minim eu ex ullamco. Reprehenderit eu incididunt duis magna proident deserunt ex quis dolor proident ex eiusmod amet fugiat. Amet anim excepteur reprehenderit enim ea laborum esse deserunt amet eiusmod sit nulla.",
-    "position": {
-      "x": -4184,
-      "y": 4688,
-      "z": -550
-    }
-  },
-  {
-    "name": "nostrud",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.4531,
-      0.3297,
-      0.7712
-    ],
-    "type": "Station",
-    "description": "Nostrud ullamco sunt adipisicing in nostrud veniam amet labore quis occaecat adipisicing. Dolor quis magna ullamco pariatur exercitation occaecat proident proident aute. Qui tempor est laboris ipsum culpa mollit culpa sint commodo labore.",
-    "position": {
-      "x": 2963,
-      "y": -2045,
-      "z": 4504
-    }
-  },
-  {
-    "name": "cupidatat",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.4693,
-      0.3769,
-      0.263
+      0.1055,
+      0.6492,
+      0.5688
     ],
     "type": "Hostile",
-    "description": "Reprehenderit sit magna labore ut eu nostrud. In officia exercitation eiusmod eu. Incididunt deserunt exercitation esse proident aliqua nisi commodo commodo culpa esse ut.",
+    "description": "Non laborum magna voluptate aute veniam et laboris labore. Elit non aute quis minim velit aute mollit ullamco do. Duis eiusmod Lorem aliquip non est id ad in labore.",
     "position": {
-      "x": -3437,
-      "y": 603,
-      "z": 1260
-    }
-  },
-  {
-    "name": "ex",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.1199,
-      0.7341,
-      0.0015
-    ],
-    "type": "Asteroid",
-    "description": "Non mollit cupidatat magna ullamco commodo. Labore duis qui anim proident consequat ea aliquip. Voluptate et dolore est dolore tempor magna do labore duis.",
-    "position": {
-      "x": 2995,
-      "y": 4223,
-      "z": 4709
-    }
-  },
-  {
-    "name": "officia",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.1993,
-      0.7212,
-      0.5819
-    ],
-    "type": "Asteroid",
-    "description": "Esse magna nostrud do dolor pariatur. Commodo ullamco consectetur non aliquip ea nostrud. Adipisicing id nisi duis dolore non elit.",
-    "position": {
-      "x": -2508,
-      "y": -2660,
-      "z": 1767
-    }
-  },
-  {
-    "name": "laboris",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.3506,
-      0.5451,
-      0.2238
-    ],
-    "type": "Other",
-    "description": "Tempor do laborum sint occaecat enim sint ea ea ad laborum minim occaecat eiusmod. Tempor minim excepteur exercitation sunt ullamco ipsum culpa velit laboris dolor excepteur anim nulla. Est ullamco eiusmod non minim culpa enim.",
-    "position": {
-      "x": -1671,
-      "y": -2078,
-      "z": 3900
-    }
-  },
-  {
-    "name": "amet",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.0376,
-      0.691,
-      0.0076
-    ],
-    "type": "Other",
-    "description": "Veniam sit Lorem reprehenderit proident quis quis est sunt eu deserunt sunt. Laborum magna duis dolore fugiat aliquip qui labore proident veniam sit eu anim. Id non labore aliqua elit laboris incididunt eu ad anim minim Lorem est.",
-    "position": {
-      "x": 1005,
-      "y": -2908,
-      "z": 537
-    }
-  },
-  {
-    "name": "aliquip",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.0208,
-      0.6964,
-      0.0984
-    ],
-    "type": "Hostile",
-    "description": "Qui in eiusmod magna quis anim Lorem. Ullamco enim duis elit cupidatat quis magna in. Excepteur ipsum eiusmod cillum id pariatur exercitation ex quis et dolor ex.",
-    "position": {
-      "x": 2314,
-      "y": -2079,
-      "z": -2192
-    }
-  },
-  {
-    "name": "nisi",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.582,
-      0.7906,
-      0.7884
-    ],
-    "type": "Other",
-    "description": "Laborum enim irure et enim qui exercitation dolor. Labore officia in enim officia. Ullamco nulla ex cupidatat id fugiat consectetur incididunt.",
-    "position": {
-      "x": 1484,
-      "y": -57,
-      "z": 1740
-    }
-  },
-  {
-    "name": "enim",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.5142,
-      0.0146,
-      0.6116
-    ],
-    "type": "Asteroid",
-    "description": "Elit esse dolor enim qui occaecat sint nisi. Ea ipsum ipsum eu quis aliquip minim fugiat. Laborum eu pariatur deserunt esse consectetur aliqua qui in ex non enim.",
-    "position": {
-      "x": -395,
-      "y": 2412,
-      "z": -1539
-    }
-  },
-  {
-    "name": "incididunt",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.6818,
-      0.1028,
-      0.9874
-    ],
-    "type": "Other",
-    "description": "Dolore aliqua occaecat enim sunt deserunt reprehenderit quis sint fugiat ea qui duis. Tempor Lorem laborum pariatur nulla culpa non culpa minim non id ex non. Lorem ullamco cillum minim cupidatat fugiat ad dolore officia.",
-    "position": {
-      "x": -1917,
-      "y": 1193,
-      "z": -3433
-    }
-  },
-  {
-    "name": "magna",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.5678,
-      0.2002,
-      0.2667
-    ],
-    "type": "Hostile",
-    "description": "Quis dolore velit consequat proident consequat deserunt aute ut reprehenderit esse qui et eu mollit. Dolore mollit qui occaecat magna minim aliqua. Sint Lorem ut consequat laboris et ea ea est do dolore eu reprehenderit.",
-    "position": {
-      "x": 787,
-      "y": -2354,
-      "z": 1423
-    }
-  },
-  {
-    "name": "eu",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.8917,
-      0.4631,
-      0.5245
-    ],
-    "type": "Hostile",
-    "description": "Mollit in id ex ex. Irure aliqua veniam incididunt ipsum exercitation irure ipsum laboris excepteur esse incididunt. Nostrud aliquip nostrud ut ut.",
-    "position": {
-      "x": 171,
-      "y": -4595,
-      "z": -2044
-    }
-  },
-  {
-    "name": "id",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.3111,
-      0.6233,
-      0.3057
-    ],
-    "type": "Station",
-    "description": "Tempor cillum cillum occaecat sunt. Deserunt voluptate reprehenderit ad et adipisicing do consequat ullamco. Ad nulla non nisi pariatur amet consequat officia reprehenderit laboris Lorem deserunt ipsum mollit.",
-    "position": {
-      "x": -4265,
-      "y": -2620,
-      "z": -4938
-    }
-  },
-  {
-    "name": "exercitation",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.3553,
-      0.6487,
-      0.7686
-    ],
-    "type": "Station",
-    "description": "Et voluptate sit consequat in pariatur id ullamco. Enim labore nostrud consequat amet pariatur amet. Sint velit ipsum aliquip exercitation non.",
-    "position": {
-      "x": -4815,
-      "y": -494,
-      "z": 4737
-    }
-  },
-  {
-    "name": "laborum",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.6099,
-      0.7751,
-      0.5716
-    ],
-    "type": "Station",
-    "description": "Non reprehenderit voluptate consequat anim cillum. Consequat minim eu adipisicing excepteur adipisicing est Lorem sit. Ipsum laboris anim velit amet ex culpa ex irure ut elit voluptate laborum ullamco.",
-    "position": {
-      "x": -2393,
-      "y": -3915,
-      "z": -4595
-    }
-  },
-  {
-    "name": "sunt",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.052,
-      0.1223,
-      0.5394
-    ],
-    "type": "Hostile",
-    "description": "Eiusmod fugiat eu aliqua voluptate officia est nisi occaecat nulla cillum. Occaecat labore dolor eiusmod eiusmod ipsum. Incididunt cupidatat minim commodo laborum voluptate mollit.",
-    "position": {
-      "x": -3646,
-      "y": -2664,
-      "z": -1642
-    }
-  },
-  {
-    "name": "culpa",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.1463,
-      0.1638,
-      0.8226
-    ],
-    "type": "Station",
-    "description": "Sunt ad esse anim velit tempor non exercitation incididunt do commodo. Labore exercitation dolore consectetur qui nostrud minim proident nulla nisi. Laboris eu irure dolor nulla cupidatat sunt officia amet proident esse.",
-    "position": {
-      "x": -2877,
-      "y": 4293,
-      "z": 1199
-    }
-  },
-  {
-    "name": "tempor",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.9513,
-      0.6932,
-      0.6601
-    ],
-    "type": "Other",
-    "description": "Elit occaecat eiusmod do amet commodo ipsum labore in amet. Id irure officia incididunt ipsum occaecat irure occaecat duis duis Lorem elit quis nisi irure. Officia Lorem sunt irure deserunt dolor aute exercitation minim aute enim.",
-    "position": {
-      "x": -1473,
-      "y": 2928,
-      "z": 2676
-    }
-  },
-  {
-    "name": "pariatur",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.4573,
-      0.1601,
-      0.5366
-    ],
-    "type": "Station",
-    "description": "Velit ea consectetur aliqua est commodo voluptate excepteur proident magna esse incididunt exercitation in sint. Cillum nisi occaecat aute incididunt. Commodo dolor dolor fugiat officia esse mollit esse aute amet nostrud laboris enim.",
-    "position": {
-      "x": 4004,
-      "y": 3429,
-      "z": -4892
-    }
-  },
-  {
-    "name": "qui",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.8915,
-      0.6559,
-      0.1513
-    ],
-    "type": "Hostile",
-    "description": "Lorem id cupidatat nostrud eiusmod exercitation occaecat sunt consequat sunt amet. Aliquip do dolor occaecat Lorem tempor Lorem do laborum magna tempor aliqua. Consectetur pariatur officia commodo labore minim fugiat.",
-    "position": {
-      "x": 1502,
-      "y": 3245,
-      "z": -424
-    }
-  },
-  {
-    "name": "aute",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.9817,
-      0.3393,
-      0.8021
-    ],
-    "type": "Station",
-    "description": "Aliquip ad laboris nisi dolore anim tempor Lorem occaecat. Ipsum exercitation dolore cillum ex quis qui. Excepteur nostrud nisi cupidatat do excepteur ipsum minim in.",
-    "position": {
-      "x": 1518,
-      "y": 4240,
-      "z": -1918
-    }
-  },
-  {
-    "name": "sunt",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.6599,
-      0.9719,
-      0.4956
-    ],
-    "type": "Hostile",
-    "description": "Commodo cupidatat consequat adipisicing voluptate. Elit culpa ea officia culpa reprehenderit esse fugiat. Laboris duis ad veniam sunt reprehenderit fugiat ea laboris sit ex.",
-    "position": {
-      "x": -4229,
-      "y": -1542,
-      "z": -209
-    }
-  },
-  {
-    "name": "reprehenderit",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.6266,
-      0.0548,
-      0.8329
-    ],
-    "type": "Asteroid",
-    "description": "Velit voluptate incididunt do reprehenderit elit nulla aliqua dolor occaecat nostrud proident. Sit sit fugiat dolor reprehenderit anim. Nisi ullamco fugiat do et aute.",
-    "position": {
-      "x": -2191,
-      "y": -1242,
-      "z": 4810
-    }
-  },
-  {
-    "name": "ad",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.4485,
-      0.9337,
-      0.889
-    ],
-    "type": "Asteroid",
-    "description": "Tempor fugiat duis irure elit deserunt. Velit anim dolor dolore adipisicing labore fugiat deserunt. Consectetur sit sit nostrud non commodo minim.",
-    "position": {
-      "x": -2914,
-      "y": -2857,
-      "z": 3399
-    }
-  },
-  {
-    "name": "aliquip",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.7764,
-      0.8628,
-      0.7911
-    ],
-    "type": "Other",
-    "description": "Aliquip Lorem dolore cillum anim aute occaecat velit in qui sint proident ut quis id. Consequat ad ea est est dolore eiusmod. Esse cillum elit voluptate tempor nisi mollit occaecat eu amet laboris.",
-    "position": {
-      "x": -713,
-      "y": -4040,
-      "z": -3023
-    }
-  },
-  {
-    "name": "enim",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.4595,
-      0.4617,
-      0.1101
-    ],
-    "type": "Other",
-    "description": "Laborum dolore deserunt est elit. Ipsum aliqua veniam dolore in. Incididunt do dolore proident ad.",
-    "position": {
-      "x": -1671,
-      "y": -245,
-      "z": 2399
-    }
-  },
-  {
-    "name": "est",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.8242,
-      0.4106,
-      0.411
-    ],
-    "type": "Asteroid",
-    "description": "Nulla amet ea eu velit labore et aliqua occaecat elit nisi tempor consequat incididunt exercitation. Consequat adipisicing voluptate labore mollit tempor dolor qui dolore nostrud veniam sint pariatur. Aliquip anim excepteur aute ea consectetur quis nostrud eu.",
-    "position": {
-      "x": 3976,
-      "y": -4571,
-      "z": -3068
-    }
-  },
-  {
-    "name": "et",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.3454,
-      0.4398,
-      0.8709
-    ],
-    "type": "Hostile",
-    "description": "Adipisicing proident adipisicing culpa consequat laborum esse consectetur minim fugiat duis nulla anim Lorem est. Ad incididunt adipisicing nostrud cillum duis ipsum sit Lorem. Laborum dolor consectetur do qui sit aute.",
-    "position": {
-      "x": -3358,
-      "y": 479,
-      "z": 61
-    }
-  },
-  {
-    "name": "dolore",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.1652,
-      0.2452,
-      0.3243
-    ],
-    "type": "Asteroid",
-    "description": "Labore cupidatat laborum ut elit veniam id culpa deserunt pariatur. Laboris anim minim exercitation qui sint aliquip aliquip proident. Dolor in aliquip excepteur sunt officia esse commodo.",
-    "position": {
-      "x": -1930,
-      "y": -2130,
-      "z": -4545
-    }
-  },
-  {
-    "name": "eu",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.3477,
-      0.2867,
-      0.6508
-    ],
-    "type": "Station",
-    "description": "Enim Lorem ullamco enim excepteur eiusmod deserunt excepteur adipisicing adipisicing aliquip irure Lorem mollit do. Non excepteur enim occaecat eu ad. Nisi deserunt incididunt irure sit amet quis voluptate dolor.",
-    "position": {
-      "x": -2325,
-      "y": 2244,
-      "z": -4331
-    }
-  },
-  {
-    "name": "occaecat",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.4894,
-      0.3788,
-      0.5176
-    ],
-    "type": "Station",
-    "description": "Adipisicing et enim sunt culpa elit. Sint duis pariatur esse fugiat nisi adipisicing. Nulla sit eiusmod est et do laboris est aliquip sit velit.",
-    "position": {
-      "x": -2136,
-      "y": 3171,
-      "z": -1107
-    }
-  },
-  {
-    "name": "laborum",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.8364,
-      0.7663,
-      0.7418
-    ],
-    "type": "Asteroid",
-    "description": "Eu esse laborum sunt voluptate fugiat anim non. Aliqua laboris mollit pariatur sunt est reprehenderit est tempor duis aliqua pariatur nostrud deserunt amet. Deserunt ex ad excepteur aute consectetur duis ad.",
-    "position": {
-      "x": -2235,
-      "y": 2825,
-      "z": -4294
-    }
-  },
-  {
-    "name": "qui",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.4987,
-      0.0232,
-      0.9084
-    ],
-    "type": "Asteroid",
-    "description": "Officia eu ipsum elit voluptate sunt officia dolore. Lorem officia eu et eiusmod. Quis officia eiusmod sunt consequat ad ut et eu magna quis enim aute qui.",
-    "position": {
-      "x": -522,
-      "y": -455,
-      "z": 1740
-    }
-  },
-  {
-    "name": "aute",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.9596,
-      0.4099,
-      0.7951
-    ],
-    "type": "Asteroid",
-    "description": "Non dolore pariatur nisi sunt excepteur enim fugiat ad aute eu mollit aute id pariatur. Ea irure fugiat sunt ad dolor et incididunt labore consectetur. Exercitation et ea deserunt enim qui consectetur non aliqua ut in id sit laboris.",
-    "position": {
-      "x": 838,
-      "y": 2763,
-      "z": 4861
-    }
-  },
-  {
-    "name": "ea",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.8291,
-      0.3473,
-      0.4091
-    ],
-    "type": "Other",
-    "description": "Do fugiat quis id cillum sit id do amet laboris velit. Consectetur tempor ut commodo in magna. Sunt duis qui cupidatat et aute dolor elit.",
-    "position": {
-      "x": -3579,
-      "y": 2697,
-      "z": 4639
-    }
-  },
-  {
-    "name": "consequat",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.1386,
-      0.2903,
-      0.555
-    ],
-    "type": "Station",
-    "description": "Magna culpa velit reprehenderit mollit amet deserunt laboris. Incididunt fugiat consequat commodo elit consequat veniam culpa. Proident elit ex exercitation occaecat qui ipsum voluptate sit aliqua eiusmod eiusmod mollit sint quis.",
-    "position": {
-      "x": -262,
-      "y": 2768,
-      "z": -4893
-    }
-  },
-  {
-    "name": "cillum",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.6587,
-      0.938,
-      0.3206
-    ],
-    "type": "Hostile",
-    "description": "Sint nisi veniam consectetur esse adipisicing. Tempor Lorem consectetur anim enim voluptate officia nulla cupidatat dolor officia. Exercitation deserunt minim reprehenderit sunt ut cillum mollit et commodo sit et veniam veniam consequat.",
-    "position": {
-      "x": -1991,
-      "y": 1906,
-      "z": 1239
-    }
-  },
-  {
-    "name": "reprehenderit",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.5612,
-      0.515,
-      0.0497
-    ],
-    "type": "Asteroid",
-    "description": "Laboris non amet adipisicing exercitation in eu nisi nulla et incididunt deserunt. Quis elit quis sint elit cupidatat aliqua proident qui eu deserunt dolore ullamco irure. Lorem esse amet sunt nulla est sint culpa sunt do enim irure elit esse.",
-    "position": {
-      "x": -2283,
-      "y": -447,
-      "z": 4198
-    }
-  },
-  {
-    "name": "magna",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.9852,
-      0.1484,
-      0.5336
-    ],
-    "type": "Hostile",
-    "description": "Veniam ullamco deserunt proident eiusmod. Labore Lorem reprehenderit ipsum aliqua. Commodo adipisicing exercitation laboris in eu pariatur nisi sint enim excepteur.",
-    "position": {
-      "x": 1972,
-      "y": 4086,
-      "z": 4511
-    }
-  },
-  {
-    "name": "deserunt",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.5144,
-      0.3534,
-      0.6367
-    ],
-    "type": "Station",
-    "description": "Exercitation amet qui ex non officia. Amet non reprehenderit veniam anim culpa do voluptate ea enim dolore qui. Duis commodo ea incididunt deserunt reprehenderit id id reprehenderit.",
-    "position": {
-      "x": -970,
-      "y": -3590,
-      "z": -1844
-    }
-  },
-  {
-    "name": "labore",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.9895,
-      0.341,
-      0.328
-    ],
-    "type": "Hostile",
-    "description": "Eu ipsum laboris laborum sint nulla Lorem et dolor reprehenderit. Esse aliquip cupidatat eu ad laboris minim exercitation. Exercitation tempor aliquip duis enim velit do nulla occaecat voluptate id mollit cupidatat aliquip Lorem.",
-    "position": {
-      "x": -1162,
-      "y": 785,
-      "z": 917
-    }
-  },
-  {
-    "name": "sunt",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.025,
-      0.8024,
-      0.4907
-    ],
-    "type": "Asteroid",
-    "description": "In occaecat nulla excepteur incididunt nisi eiusmod nulla velit irure incididunt ullamco cupidatat. Proident sint enim dolore excepteur aliquip sit qui fugiat adipisicing sit ipsum excepteur. Eiusmod eu irure pariatur adipisicing sunt sunt mollit.",
-    "position": {
-      "x": -1397,
-      "y": -2129,
-      "z": 4429
-    }
-  },
-  {
-    "name": "veniam",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.974,
-      0.4738,
-      0.6956
-    ],
-    "type": "Other",
-    "description": "Culpa incididunt cupidatat incididunt amet cupidatat. Esse enim magna magna irure eiusmod ex et nisi dolore. Officia deserunt adipisicing amet duis fugiat esse ex sit.",
-    "position": {
-      "x": 3825,
-      "y": 2182,
-      "z": -4766
-    }
-  },
-  {
-    "name": "voluptate",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.382,
-      0.195,
-      0.5798
-    ],
-    "type": "Other",
-    "description": "Sint quis sit pariatur proident voluptate minim incididunt. Magna sit quis nulla excepteur consectetur est est quis officia voluptate cupidatat laboris irure. Officia minim adipisicing velit aliqua non ut exercitation commodo aute laborum excepteur occaecat ad eiusmod.",
-    "position": {
-      "x": -4014,
-      "y": 1195,
-      "z": 474
-    }
-  },
-  {
-    "name": "dolor",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.6545,
-      0.5704,
-      0.4785
-    ],
-    "type": "Station",
-    "description": "Aute do aliquip sint incididunt est ea dolor. Ullamco cupidatat voluptate sunt enim. Esse do cupidatat laborum nulla dolore qui.",
-    "position": {
-      "x": 1768,
-      "y": 1978,
-      "z": -213
-    }
-  },
-  {
-    "name": "et",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.7604,
-      0.0837,
-      0.7188
-    ],
-    "type": "Station",
-    "description": "Aliquip nulla et voluptate ea est ipsum. Est Lorem reprehenderit adipisicing reprehenderit duis occaecat consectetur cillum aute. Cupidatat fugiat incididunt qui pariatur ipsum in ipsum nulla aliqua laboris culpa consequat.",
-    "position": {
-      "x": 3737,
-      "y": -4921,
-      "z": -1157
-    }
-  },
-  {
-    "name": "laboris",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.2105,
-      0.9738,
-      0.6914
-    ],
-    "type": "Other",
-    "description": "Adipisicing incididunt incididunt cillum reprehenderit elit ad veniam in. Deserunt sit ullamco in qui laborum ut duis ipsum dolore ut irure pariatur. Anim eu laborum consequat qui.",
-    "position": {
-      "x": -2221,
-      "y": -1966,
-      "z": -3286
+      "x": 38,
+      "y": 91,
+      "z": -378
     }
   },
   {
     "name": "non",
     "icon": "assets/textures/Icons/Asteroid.svg",
     "color": [
-      0.7563,
-      0.6551,
-      0.8138
+      0.9067,
+      0.3652,
+      0.8836
     ],
     "type": "Asteroid",
-    "description": "Esse reprehenderit tempor aliqua adipisicing in enim id aliqua elit laboris cillum in nulla. Duis nisi elit nisi labore. Anim proident mollit pariatur adipisicing magna nisi officia eu nulla dolor commodo aliquip.",
+    "description": "Ad non officia ex consequat laborum. Et amet cupidatat aliqua officia ex id id minim. Qui sunt voluptate voluptate ex nostrud minim cupidatat.",
     "position": {
-      "x": 1810,
-      "y": -3371,
-      "z": -2584
-    }
-  },
-  {
-    "name": "id",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.6197,
-      0.1899,
-      0.8788
-    ],
-    "type": "Station",
-    "description": "Eu pariatur velit ullamco magna deserunt ad nulla ipsum anim. Elit occaecat ipsum veniam ullamco eiusmod. Culpa voluptate et cupidatat ipsum et ex ex amet proident.",
-    "position": {
-      "x": -451,
-      "y": 3061,
-      "z": -2865
-    }
-  },
-  {
-    "name": "proident",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.9248,
-      0.0338,
-      0.9903
-    ],
-    "type": "Hostile",
-    "description": "Nostrud qui deserunt et amet exercitation cupidatat magna. Laboris aliquip irure qui occaecat in ipsum et deserunt ea non voluptate aliqua. Nostrud esse voluptate do pariatur mollit qui Lorem tempor.",
-    "position": {
-      "x": 4889,
-      "y": 4729,
-      "z": -4215
+      "x": 12,
+      "y": 47,
+      "z": 316
     }
   },
   {
     "name": "incididunt",
     "icon": "assets/textures/Icons/Asteroid.svg",
     "color": [
-      0.8348,
-      0.6585,
-      0.0704
-    ],
-    "type": "Hostile",
-    "description": "Quis ipsum incididunt sunt aute. Lorem qui commodo esse fugiat ad enim dolore in sunt eu pariatur. Tempor proident mollit proident aliquip Lorem excepteur eu reprehenderit nostrud dolore in labore fugiat.",
-    "position": {
-      "x": 2606,
-      "y": 577,
-      "z": -4872
-    }
-  },
-  {
-    "name": "tempor",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.1699,
-      0.7576,
-      0.319
+      0.6292,
+      0.7506,
+      0.392
     ],
     "type": "Other",
-    "description": "Pariatur fugiat officia eiusmod dolore cupidatat. Mollit ex mollit est anim adipisicing ut tempor duis non. Dolore culpa est eiusmod officia elit irure ea consequat Lorem exercitation adipisicing.",
+    "description": "Aliqua velit Lorem qui cupidatat adipisicing et proident sint laboris laboris sit magna magna. Aliquip eu consectetur aliquip mollit nostrud ex Lorem magna dolor. Do nostrud consequat culpa aliqua anim laboris esse officia aliquip mollit ullamco non.",
     "position": {
-      "x": -4530,
-      "y": -2982,
-      "z": -1457
-    }
-  },
-  {
-    "name": "qui",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.607,
-      0.3755,
-      0.8781
-    ],
-    "type": "Asteroid",
-    "description": "Lorem ipsum minim incididunt non nisi. Fugiat eu est sunt eiusmod quis. Cupidatat Lorem occaecat veniam elit aute adipisicing id est elit et exercitation exercitation elit id.",
-    "position": {
-      "x": -847,
-      "y": -192,
-      "z": -1717
-    }
-  },
-  {
-    "name": "sunt",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.686,
-      0.1011,
-      0.9135
-    ],
-    "type": "Asteroid",
-    "description": "Ipsum sint culpa non sunt pariatur Lorem sit cupidatat ad voluptate reprehenderit culpa. Lorem deserunt enim nostrud id duis enim eiusmod. Ullamco commodo ea in eu exercitation labore aute enim id.",
-    "position": {
-      "x": -358,
-      "y": 4920,
-      "z": -828
-    }
-  },
-  {
-    "name": "esse",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.5811,
-      0.3589,
-      0.56
-    ],
-    "type": "Station",
-    "description": "Enim duis ut occaecat pariatur deserunt. Non dolore incididunt aliqua quis occaecat commodo aliqua esse magna non ipsum. Dolore ea ea reprehenderit exercitation do sunt laborum laboris excepteur laborum.",
-    "position": {
-      "x": 2665,
-      "y": 1229,
-      "z": 342
-    }
-  },
-  {
-    "name": "id",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.0009,
-      0.5367,
-      0.3449
-    ],
-    "type": "Station",
-    "description": "Sint fugiat dolor aute ullamco ullamco culpa nulla culpa dolore ipsum ea enim. Anim qui amet tempor nisi qui esse nisi consequat culpa eu. Laborum commodo incididunt cillum eu magna ipsum.",
-    "position": {
-      "x": -4785,
-      "y": 1968,
-      "z": -1322
-    }
-  },
-  {
-    "name": "voluptate",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.1215,
-      0.6084,
-      0.3925
-    ],
-    "type": "Station",
-    "description": "Lorem quis aliquip commodo aliquip laboris non deserunt Lorem reprehenderit esse velit fugiat occaecat. Nulla reprehenderit occaecat ut exercitation. Consectetur minim labore elit dolor enim officia quis culpa.",
-    "position": {
-      "x": -1042,
-      "y": 1819,
-      "z": 4019
-    }
-  },
-  {
-    "name": "voluptate",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.9404,
-      0.4566,
-      0.909
-    ],
-    "type": "Station",
-    "description": "Esse proident irure exercitation sit laborum cillum excepteur tempor ipsum in reprehenderit. Nulla sunt voluptate veniam pariatur excepteur eu cupidatat fugiat. Non exercitation ea commodo irure et sunt magna aute dolore in in cillum non aliqua.",
-    "position": {
-      "x": 3841,
-      "y": 4809,
-      "z": 1575
-    }
-  },
-  {
-    "name": "amet",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.1081,
-      0.634,
-      0.6485
-    ],
-    "type": "Station",
-    "description": "Incididunt et ullamco ut ipsum fugiat amet proident in voluptate consequat incididunt nisi commodo voluptate. Eu ex culpa ex enim aliquip reprehenderit reprehenderit tempor aliqua adipisicing eu. Elit tempor quis ad laboris fugiat adipisicing voluptate voluptate fugiat laborum nostrud et cillum.",
-    "position": {
-      "x": 4132,
-      "y": 4272,
-      "z": 2259
-    }
-  },
-  {
-    "name": "amet",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.4818,
-      0.1403,
-      0.2576
-    ],
-    "type": "Station",
-    "description": "Occaecat minim officia cillum excepteur voluptate aliqua laboris consectetur. Fugiat incididunt non ullamco adipisicing pariatur anim officia et duis ad do. Non incididunt ad velit occaecat et sunt irure exercitation quis et.",
-    "position": {
-      "x": -2176,
-      "y": 3894,
-      "z": 1328
-    }
-  },
-  {
-    "name": "excepteur",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.8129,
-      0.0139,
-      0.0569
-    ],
-    "type": "Hostile",
-    "description": "Velit fugiat ad ut do nisi. Quis anim incididunt ex ea esse ut tempor sunt minim reprehenderit velit. Lorem id exercitation aliquip dolor.",
-    "position": {
-      "x": -1863,
-      "y": 168,
-      "z": 1953
-    }
-  },
-  {
-    "name": "officia",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.9157,
-      0.7793,
-      0.2701
-    ],
-    "type": "Other",
-    "description": "Voluptate incididunt do velit eu nostrud ex irure. Adipisicing ullamco sit dolore duis irure commodo aliquip velit sunt do in irure occaecat commodo. Velit laboris fugiat consequat pariatur nulla eu aute fugiat nulla ullamco occaecat cupidatat.",
-    "position": {
-      "x": 1030,
-      "y": 1932,
-      "z": 548
-    }
-  },
-  {
-    "name": "reprehenderit",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.5296,
-      0.3273,
-      0.1326
-    ],
-    "type": "Hostile",
-    "description": "Excepteur exercitation sunt dolor et deserunt proident laborum ipsum non. Cillum pariatur cupidatat anim in. Eiusmod officia aliquip nulla aute pariatur.",
-    "position": {
-      "x": -1505,
-      "y": -1379,
-      "z": 3500
-    }
-  },
-  {
-    "name": "labore",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.7424,
-      0.4447,
-      0.4341
-    ],
-    "type": "Other",
-    "description": "Reprehenderit ipsum officia magna nostrud occaecat est. Nostrud ex laboris id sint officia do. Officia anim tempor velit consequat proident aliqua cupidatat qui dolor dolor aliquip magna culpa.",
-    "position": {
-      "x": 4920,
-      "y": -2082,
-      "z": -2325
-    }
-  },
-  {
-    "name": "proident",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.0355,
-      0.3531,
-      0.359
-    ],
-    "type": "Other",
-    "description": "Proident exercitation voluptate laboris ipsum sint. Ex duis exercitation sint exercitation sit ad ex ex aliqua eiusmod nostrud magna aute. Tempor qui ea aliqua ex.",
-    "position": {
-      "x": 4727,
-      "y": 4583,
-      "z": 4834
-    }
-  },
-  {
-    "name": "fugiat",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.7448,
-      0.8244,
-      0.6993
-    ],
-    "type": "Station",
-    "description": "In aliqua officia veniam fugiat irure exercitation ullamco commodo minim. Nulla ad do anim quis ullamco sit est aliquip pariatur aliquip esse. Mollit id nulla ad consectetur est eu nisi aliquip.",
-    "position": {
-      "x": 4825,
-      "y": 1158,
-      "z": -1358
-    }
-  },
-  {
-    "name": "consectetur",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.7674,
-      0.7991,
-      0.9378
-    ],
-    "type": "Asteroid",
-    "description": "Magna duis qui duis in qui culpa nulla irure. Ullamco nulla irure voluptate aliqua. Proident excepteur dolor nulla dolor pariatur aliquip ut amet deserunt velit proident esse consectetur deserunt.",
-    "position": {
-      "x": -104,
-      "y": 1214,
-      "z": 3034
-    }
-  },
-  {
-    "name": "aliquip",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.9706,
-      0.0736,
-      0.0936
-    ],
-    "type": "Station",
-    "description": "Esse non cillum ut qui et aliqua esse esse aliqua. Deserunt quis laborum ut velit laborum et ea laborum nulla dolor consequat ea qui esse. Irure officia est culpa laborum fugiat voluptate officia mollit esse.",
-    "position": {
-      "x": -81,
-      "y": -2261,
-      "z": -1973
-    }
-  },
-  {
-    "name": "fugiat",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.6409,
-      0.6354,
-      0.1151
-    ],
-    "type": "Other",
-    "description": "Dolore velit cupidatat commodo mollit elit. Nostrud qui velit veniam deserunt ad. Eiusmod id laborum proident deserunt laboris esse eiusmod.",
-    "position": {
-      "x": -1445,
-      "y": -950,
-      "z": 773
-    }
-  },
-  {
-    "name": "est",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.9273,
-      0.7812,
-      0.746
-    ],
-    "type": "Other",
-    "description": "Ut enim adipisicing magna tempor. Sunt dolor in pariatur in fugiat ad commodo qui pariatur reprehenderit sint tempor. Deserunt irure ad velit sint in laboris incididunt anim cupidatat.",
-    "position": {
-      "x": -1709,
-      "y": -2340,
-      "z": -1686
-    }
-  },
-  {
-    "name": "eiusmod",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.964,
-      0.3876,
-      0.4454
-    ],
-    "type": "Other",
-    "description": "Nulla fugiat magna cupidatat quis officia dolor elit incididunt. Ex consequat consectetur aliqua proident. Do et dolor Lorem sint elit laborum ea consectetur do ullamco ex reprehenderit pariatur.",
-    "position": {
-      "x": 49,
-      "y": 2780,
-      "z": -2580
-    }
-  },
-  {
-    "name": "consectetur",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.485,
-      0.8442,
-      0.0962
-    ],
-    "type": "Hostile",
-    "description": "Ut reprehenderit excepteur aute pariatur tempor tempor minim aliquip fugiat adipisicing anim. Qui dolore minim ipsum Lorem ex do tempor laboris laborum Lorem. Consectetur fugiat id sit occaecat aute in nulla esse cillum nulla elit aliquip.",
-    "position": {
-      "x": -4414,
-      "y": -329,
-      "z": -2802
-    }
-  },
-  {
-    "name": "est",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.8428,
-      0.3202,
-      0.4034
-    ],
-    "type": "Station",
-    "description": "In laboris velit aliquip mollit sit et deserunt officia ipsum commodo tempor culpa commodo pariatur. Lorem enim irure reprehenderit aliquip pariatur nostrud eiusmod qui fugiat pariatur eu minim nostrud proident. Sit reprehenderit incididunt laboris ad duis.",
-    "position": {
-      "x": -2189,
-      "y": -3496,
-      "z": -1103
-    }
-  },
-  {
-    "name": "dolor",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.946,
-      0.8976,
-      0.364
-    ],
-    "type": "Other",
-    "description": "Ea quis deserunt esse culpa sunt pariatur enim et cillum aliquip incididunt officia. Excepteur irure anim do dolor anim incididunt mollit dolore est pariatur sunt voluptate dolore. Qui cupidatat sit cillum incididunt aliqua laboris dolore.",
-    "position": {
-      "x": -4709,
-      "y": -397,
-      "z": 1654
-    }
-  },
-  {
-    "name": "officia",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.2677,
-      0.9176,
-      0.7324
-    ],
-    "type": "Hostile",
-    "description": "Deserunt aliquip nulla esse laboris eiusmod velit. Id exercitation irure ut ad excepteur minim officia laborum veniam. Irure consectetur excepteur quis irure anim cupidatat in aute dolor mollit elit.",
-    "position": {
-      "x": 4469,
-      "y": -4926,
-      "z": -3621
-    }
-  },
-  {
-    "name": "laborum",
-    "icon": "assets/textures/Icons/Asteroid.svg",
-    "color": [
-      0.8293,
-      0.2766,
-      0.2668
-    ],
-    "type": "Other",
-    "description": "Veniam reprehenderit anim do deserunt sint. Sint consequat eu elit quis do reprehenderit esse quis non ea tempor. Velit tempor magna exercitation consectetur eu.",
-    "position": {
-      "x": 1659,
-      "y": -2517,
-      "z": 1506
+      "x": 330,
+      "y": -51,
+      "z": -263
     }
   },
   {
     "name": "sint",
     "icon": "assets/textures/Icons/Asteroid.svg",
     "color": [
-      0.1261,
-      0.7452,
-      0.0833
+      0.3808,
+      0.7352,
+      0.3408
     ],
-    "type": "Other",
-    "description": "Consectetur fugiat occaecat sunt id et velit minim excepteur proident adipisicing deserunt et id aliqua. Aute dolore aliqua adipisicing nisi qui anim. Amet anim ullamco reprehenderit veniam irure in mollit magna velit culpa sint velit.",
+    "type": "Hostile",
+    "description": "Veniam aute duis velit duis. Culpa nulla deserunt non ad fugiat. Sunt pariatur id cupidatat fugiat labore proident ad cillum culpa ex tempor ex eiusmod.",
     "position": {
-      "x": 6,
-      "y": -659,
-      "z": -495
+      "x": 85,
+      "y": -99,
+      "z": 671
     }
   },
   {
-    "name": "magna",
+    "name": "consequat",
     "icon": "assets/textures/Icons/Asteroid.svg",
     "color": [
-      0.4541,
-      0.2622,
-      0.3848
+      0.982,
+      0.3112,
+      0.4244
     ],
     "type": "Other",
-    "description": "Anim nulla aliquip do irure. Consequat proident est in et voluptate sunt sint consectetur aliqua cupidatat irure occaecat nulla dolor. Aute officia in aliquip tempor amet ut minim nisi pariatur ad aliqua.",
+    "description": "Lorem consequat Lorem qui nulla in ad incididunt ex non do laborum elit ullamco sunt. Nulla laboris qui duis elit id fugiat dolore ad consequat culpa. Enim pariatur eu ut dolor dolor amet ea proident sunt cupidatat in et consectetur et.",
     "position": {
-      "x": -1330,
-      "y": -4354,
-      "z": 1291
+      "x": -471,
+      "y": -114,
+      "z": 342
+    }
+  },
+  {
+    "name": "sunt",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.924,
+      0.794,
+      0.6749
+    ],
+    "type": "Station",
+    "description": "Cillum ea elit exercitation sit sint nulla Lorem magna duis eiusmod qui mollit adipisicing sunt. Occaecat pariatur fugiat ad deserunt Lorem velit aliqua anim ea quis cillum nisi nostrud labore. Minim commodo adipisicing duis magna amet.",
+    "position": {
+      "x": 1,
+      "y": 66,
+      "z": 345
+    }
+  },
+  {
+    "name": "pariatur",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.8462,
+      0.5851,
+      0.0877
+    ],
+    "type": "Other",
+    "description": "Veniam officia ex veniam officia dolore sunt esse ea aliqua. Dolore reprehenderit eiusmod sunt laboris. Fugiat aliqua consectetur excepteur mollit.",
+    "position": {
+      "x": 522,
+      "y": -112,
+      "z": -629
+    }
+  },
+  {
+    "name": "cillum",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.0129,
+      0.2957,
+      0.3368
+    ],
+    "type": "Station",
+    "description": "Mollit eiusmod aliquip ad aute enim ullamco sit cillum velit Lorem. Eiusmod amet aliquip consectetur aute in sit fugiat dolor elit. Dolor dolor quis dolore ut exercitation deserunt ex Lorem.",
+    "position": {
+      "x": 148,
+      "y": 65,
+      "z": -321
+    }
+  },
+  {
+    "name": "dolor",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.0117,
+      0.2986,
+      0.341
+    ],
+    "type": "Hostile",
+    "description": "Dolor officia id aliquip amet minim nostrud deserunt sit exercitation do cillum sit irure. Dolore dolor ex quis aute culpa duis. Laboris esse pariatur exercitation nostrud cillum enim ea ullamco et magna laborum non.",
+    "position": {
+      "x": 744,
+      "y": 25,
+      "z": 81
+    }
+  },
+  {
+    "name": "aliquip",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.4212,
+      0.1516,
+      0.4157
+    ],
+    "type": "Hostile",
+    "description": "Minim id mollit ad in sunt nulla. Quis nulla deserunt aliquip sint ad quis occaecat amet laborum Lorem consequat minim. Deserunt irure deserunt minim Lorem elit Lorem nostrud veniam eu aliqua ipsum nulla fugiat.",
+    "position": {
+      "x": 299,
+      "y": 47,
+      "z": -894
+    }
+  },
+  {
+    "name": "labore",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.9698,
+      0.8612,
+      0.0293
+    ],
+    "type": "Station",
+    "description": "Non mollit dolore ullamco laboris commodo dolore ipsum in et. Duis culpa ut anim officia. Duis et consequat mollit commodo et aute proident amet.",
+    "position": {
+      "x": -546,
+      "y": -84,
+      "z": -737
+    }
+  },
+  {
+    "name": "et",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.8909,
+      0.7539,
+      0.5837
+    ],
+    "type": "Station",
+    "description": "Velit laboris nulla exercitation reprehenderit commodo ex enim voluptate officia consectetur sit non duis sunt. Elit elit adipisicing magna cupidatat officia occaecat ex irure ipsum est minim eiusmod enim tempor. Velit minim eu in Lorem esse commodo ipsum do occaecat amet est deserunt laborum deserunt.",
+    "position": {
+      "x": 265,
+      "y": 68,
+      "z": 334
+    }
+  },
+  {
+    "name": "qui",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.1452,
+      0.6415,
+      0.2494
+    ],
+    "type": "Asteroid",
+    "description": "In veniam consectetur pariatur nostrud velit ex dolor do duis consequat excepteur do. Cupidatat adipisicing esse minim in ullamco magna consectetur. Sint do esse enim veniam ea.",
+    "position": {
+      "x": 379,
+      "y": -109,
+      "z": 661
+    }
+  },
+  {
+    "name": "duis",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.798,
+      0.5765,
+      0.2351
+    ],
+    "type": "Station",
+    "description": "Veniam sit eu enim consectetur laborum nostrud reprehenderit enim. Voluptate est culpa consequat nulla adipisicing consequat eiusmod ex ipsum id ad voluptate et. Cillum duis laboris magna aute nisi labore.",
+    "position": {
+      "x": -568,
+      "y": -12,
+      "z": 547
+    }
+  },
+  {
+    "name": "aute",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.7246,
+      0.8395,
+      0.176
+    ],
+    "type": "Station",
+    "description": "Duis ad commodo sunt qui magna dolor. Lorem labore nulla pariatur irure ullamco commodo laboris laboris sint proident consequat do aliqua. Ea in do et sint ullamco ut Lorem ad enim id.",
+    "position": {
+      "x": -290,
+      "y": 30,
+      "z": 357
+    }
+  },
+  {
+    "name": "laboris",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.2163,
+      0.9952,
+      0.1727
+    ],
+    "type": "Station",
+    "description": "Esse irure culpa velit consectetur tempor officia. Deserunt non cillum in aute id ipsum. Cillum ipsum id ea excepteur qui tempor esse fugiat laborum culpa nulla anim.",
+    "position": {
+      "x": -103,
+      "y": 6,
+      "z": -977
+    }
+  },
+  {
+    "name": "nostrud",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.291,
+      0.9907,
+      0.5348
+    ],
+    "type": "Station",
+    "description": "Eu in reprehenderit elit non tempor ad labore esse nostrud anim deserunt culpa culpa. Ad excepteur consequat fugiat Lorem duis. Aute nostrud ad commodo fugiat duis culpa dolor sunt fugiat nisi ipsum ea id dolor.",
+    "position": {
+      "x": -243,
+      "y": 83,
+      "z": -396
+    }
+  },
+  {
+    "name": "anim",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.2799,
+      0.5555,
+      0.2438
+    ],
+    "type": "Asteroid",
+    "description": "Cillum commodo do duis velit ullamco amet incididunt excepteur incididunt ipsum. Amet amet amet ad nostrud eiusmod fugiat et eiusmod do Lorem enim velit officia ad. Incididunt dolore laborum nisi commodo aliqua proident duis veniam in velit magna.",
+    "position": {
+      "x": 264,
+      "y": 55,
+      "z": -808
+    }
+  },
+  {
+    "name": "amet",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.7104,
+      0.1088,
+      0.5771
+    ],
+    "type": "Asteroid",
+    "description": "Excepteur culpa incididunt elit commodo fugiat non officia eiusmod ad duis cillum. Et anim cillum excepteur in ex velit fugiat consectetur incididunt Lorem elit esse. Tempor nisi qui eiusmod et in amet proident dolore pariatur.",
+    "position": {
+      "x": -254,
+      "y": -29,
+      "z": -703
+    }
+  },
+  {
+    "name": "Lorem",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.6014,
+      0.3359,
+      0.8147
+    ],
+    "type": "Station",
+    "description": "Qui ex occaecat amet ullamco Lorem sit nulla. Ullamco dolor dolore elit veniam labore id ut nisi commodo incididunt magna do aliqua culpa. Sunt dolor culpa magna adipisicing nulla.",
+    "position": {
+      "x": 919,
+      "y": -115,
+      "z": -264
+    }
+  },
+  {
+    "name": "esse",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.5299,
+      0.0302,
+      0.3105
+    ],
+    "type": "Other",
+    "description": "Laborum aute pariatur dolore mollit eiusmod velit dolor elit irure. In id elit ea ad occaecat ad Lorem qui ad excepteur. Aute laboris fugiat ad culpa anim ut velit reprehenderit.",
+    "position": {
+      "x": 941,
+      "y": 7,
+      "z": 141
+    }
+  },
+  {
+    "name": "ipsum",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.7384,
+      0.5134,
+      0.8597
+    ],
+    "type": "Hostile",
+    "description": "Pariatur culpa pariatur irure nulla est mollit quis. Mollit exercitation aliquip aute ut in Lorem aliqua esse qui occaecat sint. Lorem officia nulla voluptate ea irure nulla qui labore cillum voluptate irure fugiat.",
+    "position": {
+      "x": -567,
+      "y": 84,
+      "z": 906
+    }
+  },
+  {
+    "name": "dolore",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.3852,
+      0.1252,
+      0.9839
+    ],
+    "type": "Other",
+    "description": "Consectetur ut eu id nisi. Id eiusmod sint officia incididunt irure aliquip. Mollit magna sunt ex laborum minim ut.",
+    "position": {
+      "x": 107,
+      "y": 102,
+      "z": 842
+    }
+  },
+  {
+    "name": "deserunt",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.1005,
+      0.0451,
+      0.8566
+    ],
+    "type": "Other",
+    "description": "Elit labore consequat ullamco magna id ullamco do occaecat. Velit enim sint veniam proident esse ad nisi qui mollit id officia nisi. Veniam nisi id id occaecat non et esse amet deserunt ut fugiat.",
+    "position": {
+      "x": 568,
+      "y": -51,
+      "z": 38
+    }
+  },
+  {
+    "name": "qui",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.6459,
+      0.6099,
+      0.7481
+    ],
+    "type": "Hostile",
+    "description": "Labore et reprehenderit aliquip ea Lorem aute aute cillum excepteur nulla. Amet duis voluptate sit enim nisi reprehenderit Lorem aliquip velit dolore qui. Lorem quis irure commodo veniam ea mollit ullamco.",
+    "position": {
+      "x": 196,
+      "y": 48,
+      "z": -767
+    }
+  },
+  {
+    "name": "enim",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.2866,
+      0.8942,
+      0.1761
+    ],
+    "type": "Asteroid",
+    "description": "Veniam cillum ex qui sint elit in mollit anim qui sunt minim. Ipsum aliqua ex magna proident cupidatat eiusmod veniam aute ipsum. Sit laborum adipisicing fugiat esse excepteur consequat elit sint nulla.",
+    "position": {
+      "x": 277,
+      "y": -96,
+      "z": -139
+    }
+  },
+  {
+    "name": "velit",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.0225,
+      0.5124,
+      0.589
+    ],
+    "type": "Asteroid",
+    "description": "Do cillum eu sit ad do minim duis ut consequat. In veniam laboris reprehenderit ea veniam duis nisi nisi aute excepteur ut. Aliquip est ipsum Lorem eiusmod do mollit aute ullamco irure enim consequat labore mollit excepteur.",
+    "position": {
+      "x": 982,
+      "y": -5,
+      "z": -601
+    }
+  },
+  {
+    "name": "duis",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.4546,
+      0.3976,
+      0.7468
+    ],
+    "type": "Hostile",
+    "description": "Qui irure Lorem reprehenderit cillum veniam sint sunt pariatur et est do elit velit ut. Cillum magna aliqua sunt non sunt sunt non non cupidatat officia id irure culpa minim. Officia culpa aliqua mollit excepteur eiusmod velit in velit labore aliqua eu fugiat.",
+    "position": {
+      "x": 732,
+      "y": -37,
+      "z": 278
+    }
+  },
+  {
+    "name": "ullamco",
+    "icon": "assets/textures/Icons/Asteroid.svg",
+    "color": [
+      0.978,
+      0.5411,
+      0.9746
+    ],
+    "type": "Station",
+    "description": "Cillum laboris ullamco sit amet consequat eu aliquip aliquip sit dolore ullamco dolore. Adipisicing culpa deserunt deserunt consectetur do velit est. Ea commodo irure ea elit cillum enim do tempor ullamco non.",
+    "position": {
+      "x": 877,
+      "y": 118,
+      "z": -372
     }
   }
 ]
