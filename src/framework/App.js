@@ -8,7 +8,7 @@ const PreactTransitionGroup = require('preact-transition-group');
 // DOM Sections
 const Landing = require('../sections/Landing/Landing');
 const Preloader = require('../sections/Preloader/Preloader');
-
+const InfoBox = require('../components/Info/Info');
 
 // WebGL canvas component
 const WebGLCanvas = require('../components/WebGLCanvas/WebGLCanvas');
@@ -16,7 +16,7 @@ const WebGLCanvas = require('../components/WebGLCanvas/WebGLCanvas');
 // WebGL scenes
 const Planet = require("../webgl/scene/Planet");
 const Lighting = require("../webgl/scene/Lighting");
-const POI = require("../webgl/scene/POI");
+
 const POIS = require("../webgl/scene/Points");
 
 const { assets, webgl } = require('../context');
@@ -25,15 +25,21 @@ class App extends BaseComponent {
   constructor (props) {
     super(props);
 
+
     this.state = {
       isLoaded: false,
       isAltMaterial: false,
-      section: 'Preloader'
+      section: 'Preloader',
+      object: {name:"empty"}
     };
   }
 
+
+
   handlePreventDefault = ev => {
+    this.setState({object:this.ScenePOIS.selectedPOI})
     ev.preventDefault();
+
   }
 
   componentDidUpdate (oldProps, oldState) {
@@ -78,7 +84,7 @@ class App extends BaseComponent {
 
       webgl.scene.add(new Planet());
       webgl.scene.add(new Lighting());
-      webgl.scene.add(new POIS());
+      webgl.scene.add(this.ScenePOIS = new POIS());
 
     });
   }
@@ -94,7 +100,7 @@ class App extends BaseComponent {
       case 'Preloader': return <Preloader key='Preloader' />;
 
       default:
-      case 'Landing': return <Landing key='Landing' onMaterialSwap={this.handelMaterialSwap} />;
+      case 'Landing': return <Landing key='Landing'  />;
     }
   }
 
@@ -111,8 +117,15 @@ class App extends BaseComponent {
     return (
       <div className={classes} ref={ c => { this.container = c; } }>
         { this.state.isLoaded && <WebGLCanvas />}
+
         <PreactTransitionGroup className='content'>
+          <InfoBox
+              ref={ c => { this.InfoBox = c; } }
+                      Name = {this.state.object.name}
+                      Coordinates = {[10000,20000,30000]}
+          />
           { content }
+
         </PreactTransitionGroup>
 
       </div>

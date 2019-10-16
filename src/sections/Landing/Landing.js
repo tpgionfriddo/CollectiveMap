@@ -6,7 +6,7 @@ const animate = require('@jam3/gsap-promise');
 
 const MaterialButton = require('../../components/MaterialButton/MaterialButton');
 const Header = require('../../components/Header/Header');
-const InfoBox = require('../../components/Info/Info');
+//const InfoBox = require('../../components/Info/Info');
 
 
 
@@ -33,7 +33,7 @@ class Landing extends BaseComponent {
     return Promise.all([
       this.header.animateIn({ delay: 0.25 }),
       this.button.animateIn({ delay: 0.5 }),
-        this.InfoBox.animateIn({delay: 2})
+        //this.InfoBox.animateIn({delay: 2})
     ]);
   }
 
@@ -53,13 +53,6 @@ class Landing extends BaseComponent {
         <Header ref={ c => { this.header = c; } }>
           StarMap
         </Header>
-
-          <InfoBox  ref={ c => { this.InfoBox = c; } }
-                    Name = {this.state.name}
-                    Coordinates = {[10000,20000,30000]}
-          >
-          </InfoBox>
-
 
           <MaterialButton
           onClick={() => {this.updateState({name:"Button Clicked"})}}

@@ -3,6 +3,7 @@ const {
     webgl,
     assets
 } = require('../../context');
+const preact = require('preact')
 const App = require('../../framework/App')
 const LiveShaderMaterial = require('../materials/LiveShaderMaterial');
 const honeyShader = require('../shaders/honey.shader');
@@ -31,7 +32,7 @@ const HostileKey = assets.queue({
 const OtherKey = assets.queue({
     url: 'assets/Textures/Icons/Types/Other.svg'
 });
-
+var SelectedPOI = null
 
 const types = {
     Station: new THREE.TextureLoader().load(StationKey), function() {console.log("loaded")},
@@ -66,7 +67,7 @@ module.exports = class points extends THREE.Object3D {
             this.add(Sprite);
 
         }
-
+        this.selectedPOI = "dasdsa"
         this.maxScale = 50
         this.minScale = 1
 
@@ -106,7 +107,7 @@ module.exports = class points extends THREE.Object3D {
             else if(distance/amount <= this.minScale){scale = this.minScale}
             else{scale = distance/amount}
             this.children[i].scale.set(scale,scale,scale);
-             //console.log(scale)
+            //console.log(this.selectedPOI)
         }
     }
 
@@ -123,7 +124,8 @@ module.exports = class points extends THREE.Object3D {
             } else {
                 // not a double click so set as a new first click
                 this.touchTime = new Date().getTime();
-                SingleClick(ev, pos, this);
+               console.log( this.selectedPOI = SingleClick(ev, pos, this))
+
             }
         }
     }
@@ -174,10 +176,9 @@ function SingleClick(ev, pos, the) {
         //console.log(hits[0].object)
         let moveTarget = hits[0].object.position;
         if (hits[0].object.isPOI) {
-            DisplayInfo(hits[0].object)
-            Landing.setState(hits[0].object);
-            console.log(Landing.Selected.name);
-            //({name:"eeee"})
+
+            return(hits[0].object)
+
         }
     }
     console.log(hits.length > 0 ? `Hit ${hits[0].object.name}!` : 'No hit');
@@ -190,8 +191,8 @@ console.log(POI.Data)
 
 function GetSprite(type){
 if(type in types){
-    console.log(type)
-    return null
-    //return types[type]
+    //console.log(type)
+    //return null
+    return types[type]
 }
 }
