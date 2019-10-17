@@ -106,6 +106,7 @@
       <workItem from="1571220409252" duration="273000" />
       <workItem from="1571220982702" duration="6992000" />
       <workItem from="1571301737686" duration="4272000" />
+      <workItem from="1571306058225" duration="280000" />
     </task>
     <task id="LOCAL-00001" summary="10k">
       <created>1569639477384</created>
@@ -128,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571305965809</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="durectry gone">
+      <created>1571306098584</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571306098584</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +169,7 @@
     <MESSAGE value="10k" />
     <MESSAGE value="workaround" />
     <MESSAGE value="Properly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Properly" />
+    <MESSAGE value="durectry gone" />
+    <option name="LAST_COMMIT_MESSAGE" value="durectry gone" />
   </component>
 </project>
