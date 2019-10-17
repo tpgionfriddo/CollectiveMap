@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7158075a-9835-4496-93fe-c776defe1246" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Info/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Info/Info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Info/Info.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Info/Info.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/framework/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Landing/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Landing/Landing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webgl/scene/Points.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/scene/Points.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webgl/textures/CubeMaps/nx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webgl/textures/CubeMaps/ny.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webgl/textures/CubeMaps/nz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webgl/textures/CubeMaps/px.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webgl/textures/CubeMaps/py.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webgl/textures/CubeMaps/pz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webgl/textures/CubeMaps/starmap_4k.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,19 +46,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\app\assets" />
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\app\assets\textures\Icons\Types" />
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl" />
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl\materials" />
-      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\app\assets\textures" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\components\Info" />
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\components" />
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl\scene" />
       <recent name="$PROJECT_DIR$/src/webgl/scene" />
       <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\node_modules\three\src\controls" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\app\assets" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\app\assets\textures\Icons\Types" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\src\webgl\materials" />
+      <recent name="C:\Users\The Death star\WebstormProjects\threejs-app-preact\app\assets\textures" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -120,7 +105,7 @@
       <workItem from="1570429384960" duration="3415000" />
       <workItem from="1571220409252" duration="273000" />
       <workItem from="1571220982702" duration="6992000" />
-      <workItem from="1571301737686" duration="4204000" />
+      <workItem from="1571301737686" duration="4272000" />
     </task>
     <task id="LOCAL-00001" summary="10k">
       <created>1569639477384</created>
@@ -136,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571228014409</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Properly">
+      <created>1571305965809</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571305965809</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="10k" />
     <MESSAGE value="workaround" />
-    <option name="LAST_COMMIT_MESSAGE" value="workaround" />
+    <MESSAGE value="Properly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Properly" />
   </component>
 </project>
