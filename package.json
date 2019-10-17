@@ -78,10 +78,8 @@
     "bundle:js": "node tools/bundler.js | uglifyjs -m -c warnings=false > app/bundle.js",
     "bundle:css": "node tools/style.js",
     "bundle": "cross-env NODE_ENV=production npm-run-all bundle:js bundle:css",
-    "predeploy": "npm run build",
     "deploy:upload": "surge -p app/ -d StarMap.surge.sh",
-    "deploy:gh": "gh-pages -d build",
-    "deploy": "npm run bundle && npm run deploy:gh"
+    "deploy": "npm run bundle && npm run deploy:upload"
   },
   "glslify": {
     "transform": [

@@ -50,17 +50,17 @@ class InfoBox extends BaseComponent {
     return (
       <div className={classes} ref={ c => { this.container = c; } }>
        <div className="Name">
-        { this.props.Name }
+        { this.props.selected.name }
         </div>
         <div className="Coordinates">
-          {this.props.Coordinates[0]}
+          {this.props.selected.data.position["x"]}
           , &nbsp;
-          {this.props.Coordinates[1]}
+          {this.props.selected.data.position["y"]}
           ,	&nbsp;
-          {this.props.Coordinates[2]}
+          {this.props.selected.data.position["z"]}
         </div>
         <div className="Description">
-          {this.props.Description}
+          {this.props.selected.data.description}
         </div>
       </div>
     );

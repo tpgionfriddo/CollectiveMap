@@ -6,6 +6,7 @@ const animate = require('@jam3/gsap-promise');
 
 const MaterialButton = require('../../components/MaterialButton/MaterialButton');
 const Header = require('../../components/Header/Header');
+const InfoBox = require('../../components/Info/Info');
 //const InfoBox = require('../../components/Info/Info');
 
 
@@ -14,7 +15,6 @@ class Landing extends BaseComponent {
   constructor (props) {
     super(props);
     this.state = {
-        name:"Test Asteroid",
 
     };
 
@@ -53,7 +53,11 @@ class Landing extends BaseComponent {
         <Header ref={ c => { this.header = c; } }>
           StarMap
         </Header>
-
+        <InfoBox  ref={ c => { this.InfoBox = c; } }
+                  selected = {this.props.selected}
+                  Name = {this.props.selected.name}
+                  Coordinates = {this.props.coordinates}
+        />
           <MaterialButton
           onClick={() => {this.updateState({name:"Button Clicked"})}}
           ref={ c => { this.button = c; } }>

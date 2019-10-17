@@ -30,7 +30,38 @@ class App extends BaseComponent {
       isLoaded: false,
       isAltMaterial: false,
       section: 'Preloader',
-      object: {name:"empty"}
+      object: {
+        "name": "ullamco",
+        "icon": "assets/textures/Icons/Asteroid.svg",
+        "color": [
+          0.3616,
+          0.7175,
+          0.7789
+        ],
+        "type": "Other",
+        "description": "Nisi est Lorem sint minim laborum fugiat. Excepteur voluptate ut nostrud non. Laborum ea ea nisi non eiusmod et proident mollit nostrud ipsum sint ad et.",
+        "position": {
+          "x": -3321,
+          "y": -7903,
+          "z": -4621
+        },
+        "data":{
+          "name": "ullamco",
+          "icon": "assets/textures/Icons/Asteroid.svg",
+          "color": [
+            0.3616,
+            0.7175,
+            0.7789
+          ],
+          "type": "Other",
+          "description": "Nisi est Lorem sint minim laborum fugiat. Excepteur voluptate ut nostrud non. Laborum ea ea nisi non eiusmod et proident mollit nostrud ipsum sint ad et.",
+          "position": {
+            "x": -3321,
+            "y": -7903,
+            "z": -4621
+          }
+        }
+      }
     };
   }
 
@@ -38,6 +69,7 @@ class App extends BaseComponent {
 
   handlePreventDefault = ev => {
     this.setState({object:this.ScenePOIS.selectedPOI})
+    console.log(this.state.object.data.description)
     ev.preventDefault();
 
   }
@@ -100,7 +132,7 @@ class App extends BaseComponent {
       case 'Preloader': return <Preloader key='Preloader' />;
 
       default:
-      case 'Landing': return <Landing key='Landing'  />;
+      case 'Landing': return <Landing key='Landing'  selected = {this.state.object} name = {this.state.object.name}  coordinates = {[1002,20000,30000]}/>;
     }
   }
 
@@ -119,11 +151,6 @@ class App extends BaseComponent {
         { this.state.isLoaded && <WebGLCanvas />}
 
         <PreactTransitionGroup className='content'>
-          <InfoBox
-              ref={ c => { this.InfoBox = c; } }
-                      Name = {this.state.object.name}
-                      Coordinates = {[10000,20000,30000]}
-          />
           { content }
 
         </PreactTransitionGroup>

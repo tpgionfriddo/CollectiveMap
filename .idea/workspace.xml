@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7158075a-9835-4496-93fe-c776defe1246" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Info/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Info/Info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Info/Info.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Info/Info.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/framework/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/Landing/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Landing/Landing.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webgl/scene/Points.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webgl/scene/Points.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webgl/textures/CubeMaps/nx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webgl/textures/CubeMaps/ny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webgl/textures/CubeMaps/nz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webgl/textures/CubeMaps/px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webgl/textures/CubeMaps/py.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webgl/textures/CubeMaps/pz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webgl/textures/CubeMaps/starmap_4k.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +119,8 @@
       <workItem from="1570427829282" duration="26000" />
       <workItem from="1570429384960" duration="3415000" />
       <workItem from="1571220409252" duration="273000" />
-      <workItem from="1571220982702" duration="6958000" />
+      <workItem from="1571220982702" duration="6992000" />
+      <workItem from="1571301737686" duration="4204000" />
     </task>
     <task id="LOCAL-00001" summary="10k">
       <created>1569639477384</created>
@@ -116,11 +129,28 @@
       <option name="project" value="LOCAL" />
       <updated>1569639477384</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="workaround">
+      <created>1571228014409</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571228014409</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -137,6 +167,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="10k" />
-    <option name="LAST_COMMIT_MESSAGE" value="10k" />
+    <MESSAGE value="workaround" />
+    <option name="LAST_COMMIT_MESSAGE" value="workaround" />
   </component>
 </project>

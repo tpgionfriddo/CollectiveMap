@@ -61,13 +61,13 @@ module.exports = class points extends THREE.Object3D {
             //console.log(POIS[i].position);
             Sprite.name = POIS[i].name;
             Sprite.isPOI = true;
-            Sprite.Data = POIS[i];
+            Sprite.data = POIS[i];
             Sprite.position.set(POIS[i].position.x, POIS[i].position.y, POIS[i].position.z);
             Sprite.scale.set(100, 100, 100);
             this.add(Sprite);
 
         }
-        this.selectedPOI = "dasdsa"
+        this.selectedPOI = ""
         this.maxScale = 50
         this.minScale = 1
 
