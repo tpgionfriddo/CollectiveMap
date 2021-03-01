@@ -30,7 +30,7 @@
     "right-now": "^1.0.0",
     "seed-random": "^2.2.0",
     "simplex-noise": "^2.3.0",
-    "three": "^0.89.0",
+    "three": "^0.125.0",
     "touches": "^1.2.2",
     "tweenr": "^2.2.1",
     "xhr": "^2.4.1"
